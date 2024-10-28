@@ -1,0 +1,3 @@
+sentence,prediction,gold,is_same
+[CLS] η Μπάγερν:6 Μονάχου:4 πήρε το όνομά της από το [MASK] [MASK] [MASK] [MASK] . [SEP],Μονάχου:4,Μόναχο:4 | Μόναχο:4,False
+[CLS] το Λοτ:3 πήρε το όνομά του από το [MASK] [MASK] [MASK] . [SEP],Λοτ:3,Λοτ:3 | Λοτ:3,True

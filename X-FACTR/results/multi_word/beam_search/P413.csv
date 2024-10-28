@@ -1,0 +1,395 @@
+sentence,prediction,gold_inflection,is_same,gold_original,is_same,log_prob
+[CLS] Pietro Aradori:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,shooting guard,0,shooting guard,0,-0.51243
+[CLS] Mike Wallace plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.54851
+[CLS] Amara:2 Kamara:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,linebacker:2,0,linebacker:2,0,-0.64366
+[CLS] DaShaun:4 Wood plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,point guard,0,point guard,0,-0.61700
+[CLS] Earl McCullouch:6 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.33937
+[CLS] Zack Nash plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.90377
+[CLS] John Baker plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,catcher:2,0,catcher:2,0,-0.17571
+[CLS] Scott Niedermayer:4 plays in [MASK] [MASK] [MASK] position . [SEP],the left forward,defenceman:2,0,defenceman:2,0,-0.72224
+[CLS] Brandon Caleb:2 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,wide receiver,0,wide receiver,0,-0.65243
+[CLS] Marcus Hamilton plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,cornerback:2,0,cornerback:2,0,-0.41064
+[CLS] Jeff Norton plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.62572
+[CLS] Dante Hughes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,cornerback:2,0,cornerback:2,0,-0.68619
+[CLS] Chad Ruhwedel:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.46902
+[CLS] Andreas Kanonidis:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,shooting guard,0,shooting guard,0,-0.54729
+[CLS] Oscar Klefbom:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.59664
+[CLS] Marcus Allen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,running back,0,running back,0,-0.56637
+[CLS] Steven Black plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexing:3,wide receiver,0,wide receiver,0,-0.82894
+[CLS] Tomáš Duba:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.45114
+[CLS] Max Bullough:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.30450
+[CLS] Landon:2 Johnson plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,linebacker:2,0,linebacker:2,0,-0.37898
+[CLS] Steven Hill plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,catcher:2,0,catcher:2,0,-0.54568
+[CLS] Antonio Smith plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,cornerback:2,0,cornerback:2,0,-0.56124
+[CLS] Audry:2 Pérez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,catcher:2,0,catcher:2,0,-0.38804
+[CLS] Nathan Palmer plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - center,wide receiver,0,wide receiver,0,-1.06496
+[CLS] Patrick Bailey plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.28254
+[CLS] Michael Floyd plays in [MASK] [MASK] [MASK] position . [SEP],the left left,wide receiver,0,wide receiver,0,-1.04894
+[CLS] Ron Loustel:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,goaltender:2,0,goaltender:2,0,-0.54784
+[CLS] Robert Massey:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.23207
+[CLS] Émile Bouchard:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,defenceman:2,0,defenceman:2,0,-0.58366
+[CLS] Craig Robertson plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.27204
+[CLS] Ryan Lavarnway:4 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,catcher:2,0,catcher:2,0,-0.28194
+[CLS] Dick Lamby:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.32848
+[CLS] Hines:2 Ward plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,wide receiver,0,wide receiver,0,-0.44710
+[CLS] Nate Allen plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,cornerback:2,0,cornerback:2,0,-0.35287
+[CLS] Orlando Phillips plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,power forward,0,power forward,0,-0.72883
+[CLS] Billy Andrews plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.29680
+[CLS] Giedrius:3 Gustas:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,point guard,0,point guard,0,-0.62059
+[CLS] Denis Godla:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.53247
+[CLS] Nikita Davydov:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.53399
+[CLS] Sergio Llorente:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,point guard,0,point guard,0,-0.60374
+[CLS] Karl Paymah:2 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,cornerback:2,0,cornerback:2,0,-0.76280
+[CLS] Tony Lippett:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.26785
+[CLS] John Chiles:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,wide receiver,0,wide receiver,0,-0.58509
+[CLS] Scott Kozak:2 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,linebacker:2,0,linebacker:2,0,-0.60011
+[CLS] Jerramie:3 Domish:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,defenceman:2,0,defenceman:2,0,-0.61944
+[CLS] Arnold Harrison plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.21929
+[CLS] Bart Crashley:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.53655
+[CLS] Rusty:2 Chambers plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.41160
+[CLS] Hugh Green plays in [MASK] [MASK] [MASK] position . [SEP],the left wing,linebacker:2,0,linebacker:2,0,-0.88858
+[CLS] Benjamin Gay plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,running back,0,running back,0,-0.87604
+[CLS] Patrick Jeffers:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,wide receiver,0,wide receiver,0,-0.49210
+[CLS] Jason Bell plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.25720
+[CLS] Andreas Hadelöv:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.50438
+[CLS] Dante Jones plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexing:3,linebacker:2,0,linebacker:2,0,-0.87066
+[CLS] Greg Zuerlein:3 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,placekicker:3,0,placekicker:3,0,-0.56749
+[CLS] Mike Timlin:2 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,relief pitcher,0,relief pitcher,0,-0.39940
+[CLS] Darrin:2 Fitzgerald plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,point guard,0,point guard,0,-0.47357
+[CLS] Ghaleb:3 Rida:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,shooting guard,0,shooting guard,0,-0.62925
+[CLS] Milan Chalupa:3 plays in [MASK] [MASK] [MASK] position . [SEP],the attacking midfielder,defenceman:2,0,defenceman:2,0,-0.50047
+[CLS] Clint Sammons:2 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,catcher:2,0,catcher:2,0,-0.38643
+[CLS] Murray Baron plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.28883
+[CLS] Erol:2 Kahraman:3 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive midfielder,goaltender:2,0,goaltender:2,0,-0.61620
+[CLS] Cory Fleming plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the A - B,wide receiver,0,wide receiver,0,-0.95219
+[CLS] Steve Williams plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.26850
+[CLS] Laveranues:4 Coles plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,wide receiver,0,wide receiver,0,-0.72054
+[CLS] Marcus Cromartie:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,cornerback:2,0,cornerback:2,0,-0.52423
+[CLS] Jason Lane plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,outfielder:3,0,outfielder:3,0,-0.26756
+[CLS] Mike Moore plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.65374
+[CLS] Mathieu Carle:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.65371
+[CLS] Mark Alt plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.45545
+[CLS] Jayme:2 Platt plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,goaltender:2,0,goaltender:2,0,-0.56229
+[CLS] Joe Finley:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.58274
+[CLS] Mohamed Massaquoi:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,wide receiver,0,wide receiver,0,-0.48455
+[CLS] Vince Mayle:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.35131
+[CLS] Igor Ulanov:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.42584
+[CLS] Hal Stringert:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.32190
+[CLS] Hank Baskett:2 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,wide receiver,0,wide receiver,0,-0.46204
+[CLS] Paul MacKinnon:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.26626
+[CLS] Sami Salo:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.46448
+[CLS] Hubert Bobo:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,linebacker:2,0,linebacker:2,0,-0.48043
+[CLS] Luis Gonzalez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,outfielder:3,0,outfielder:3,0,-0.41949
+[CLS] Michael Garnett:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,goaltender:2,0,goaltender:2,0,-0.26916
+[CLS] Ryan Hegarty:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.26043
+[CLS] Marlon Forbes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the A - B,cornerback:2,0,cornerback:2,0,-1.11521
+[CLS] Prechae:3 Rodriguez plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,wide receiver,0,wide receiver,0,-0.80737
+[CLS] Gianluca:2 Marchetti:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,point guard,0,point guard,0,-0.52058
+[CLS] Bryan Thomas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexible:3,linebacker:2,0,linebacker:2,0,-0.79606
+[CLS] Eric Ward plays in [MASK] [MASK] [MASK] position . [SEP],the left forward,wide receiver,0,wide receiver,0,-0.90871
+[CLS] Tim Green plays in [MASK] [MASK] [MASK] position . [SEP],the left wing,linebacker:2,0,linebacker:2,0,-0.91997
+[CLS] Kevin Elliott plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.54094
+[CLS] Gus Otto plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,linebacker:2,0,linebacker:2,0,-0.67012
+[CLS] Mike Greenlay:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,goaltender:2,0,goaltender:2,0,-0.59893
+[CLS] Kelvin Hayden plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,cornerback:2,0,cornerback:2,0,-0.45625
+[CLS] Jim Marthinsen:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,goaltender:2,0,goaltender:2,0,-0.22495
+[CLS] Shayne:2 Graham plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,placekicker:3,0,placekicker:3,0,-0.74677
+[CLS] Mike Williams plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.36915
+[CLS] Jerry Jensen plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexing:3,linebacker:2,0,linebacker:2,0,-0.76893
+[CLS] Al Dodd plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.73067
+[CLS] Aaron Harang:2 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,starting pitcher,0,starting pitcher,0,-0.74453
+[CLS] Jeff Reed plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,catcher:2,0,catcher:2,0,-0.73595
+[CLS] Rudy Fernández plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,shooting guard,0,shooting guard,0,-0.39133
+[CLS] Dave Clark plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,outfielder:3,0,outfielder:3,0,-0.28877
+[CLS] Jack Golden plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexible:3,linebacker:2,0,linebacker:2,0,-0.82558
+[CLS] Baz:2 Bastien:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,goaltender:2,0,goaltender:2,0,-0.52667
+[CLS] Steve Shull:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.25789
+[CLS] Jimmy McClain:4 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.33549
+[CLS] Ahmad Treaudo:3 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive midfielder,cornerback:2,0,cornerback:2,0,-0.66355
+[CLS] Curt Warner plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,running back,0,running back,0,-0.72666
+[CLS] Bruce Irvin:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.38173
+[CLS] Ron Scott plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexing:3,goaltender:2,0,goaltender:2,0,-0.70791
+[CLS] James Hadnot:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,running back,0,running back,0,-0.22305
+[CLS] Brett Collins plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.22338
+[CLS] Dwight Clark plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,wide receiver,0,wide receiver,0,-0.54360
+[CLS] Cody Lampl:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.40326
+[CLS] Lamin:2 Barrow plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.52952
+[CLS] Brandon Stokley:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.61512
+[CLS] Coco Crisp:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,outfielder:3,0,outfielder:3,0,-0.52374
+[CLS] Jai:2 Miller plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,outfielder:3,0,outfielder:3,0,-0.75519
+[CLS] Anders Eldebrink:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.55632
+[CLS] Wayne Turner plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,point guard,0,point guard,0,-0.33392
+[CLS] Sven Thunman:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.52437
+[CLS] Jaka:2 Lakovič:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,point guard,0,point guard,0,-0.57691
+[CLS] Jack Clancy plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.32637
+[CLS] Nikola Ivanović:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,point guard,0,point guard,0,-0.46276
+[CLS] Jhonatan:3 Solano:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,catcher:2,0,catcher:2,0,-0.66564
+[CLS] Miguel Montero plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,catcher:2,0,catcher:2,0,-0.37654
+[CLS] Mamoutou:3 Diarra:2 plays in [MASK] [MASK] [MASK] position . [SEP],the attacking midfielder,shooting guard,0,shooting guard,0,-0.51901
+[CLS] Anthony Heygood:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.54538
+[CLS] Michael Wilhoite:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.22990
+[CLS] Horace Copeland plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.28845
+[CLS] Doug Zmolek:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.47137
+[CLS] Jiří Crha:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.51052
+[CLS] Stephone:2 Anthony plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.23262
+[CLS] Jean - François Bérubé:3 plays in [MASK] [MASK] [MASK] position . [SEP],the left left,goaltender:2,0,goaltender:2,0,-0.66163
+[CLS] Ken Desjardine:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.55349
+[CLS] Stepan:2 Goryachevskikh:5 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the center - forward,goaltender:2,0,goaltender:2,0,-0.55549
+[CLS] Rod Streater:3 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,wide receiver,0,wide receiver,0,-0.49416
+[CLS] Michael Dyer:2 plays in [MASK] [MASK] [MASK] position . [SEP],the left wing,running back,0,running back,0,-0.89976
+[CLS] DeSean:3 Jackson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,wide receiver,0,wide receiver,0,-0.64346
+[CLS] Jim Brown plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.24234
+[CLS] Josh Huston plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,placekicker:3,0,placekicker:3,0,-0.31000
+[CLS] John Gilchrist:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,point guard,0,point guard,0,-0.17963
+[CLS] Eugene Marve:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,linebacker:2,0,linebacker:2,0,-0.73690
+[CLS] Chad Brownlee:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.56906
+[CLS] Jeremy Gallon:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.50505
+[CLS] Murray Brumwell:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.21101
+[CLS] Yohann:3 Auvitu:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.55998
+[CLS] Frank Emanuel plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,linebacker:2,0,linebacker:2,0,-0.65434
+[CLS] Sam Huff:2 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,linebacker:2,0,linebacker:2,0,-0.36578
+[CLS] Jackie Bates plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.34882
+[CLS] Jason LaRue:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,catcher:2,0,catcher:2,0,-0.33290
+[CLS] Tinker:2 Owens plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.25570
+[CLS] James Nixon plays in [MASK] [MASK] [MASK] position . [SEP],the blank:2,cornerback:2,0,cornerback:2,0,-0.31085
+[CLS] Philippe Boucher:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,defenceman:2,0,defenceman:2,0,-0.50259
+[CLS] André Racicot:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,goaltender:2,0,goaltender:2,0,-0.48704
+[CLS] Tyrone Brazelton:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,point guard,0,point guard,0,-0.52641
+[CLS] Elnardo:3 Webster plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.55938
+[CLS] Björn Nord plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.50575
+[CLS] James Anderson plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.24408
+[CLS] Vitaly:2 Vishnevskiy:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.63462
+[CLS] Gus Zernial:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,outfielder:3,0,outfielder:3,0,-0.30447
+[CLS] Erik Spady:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.57693
+[CLS] Jim Deshaies:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,starting pitcher,0,starting pitcher,0,-0.28159
+[CLS] Reggie Freeman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,linebacker:2,0,linebacker:2,0,-0.52570
+[CLS] Randy Bullock plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,placekicker:3,0,placekicker:3,0,-0.47209
+[CLS] Mario Giallonardo:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.49909
+[CLS] Tommy Bryceland:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,inside forward,0,inside forward,0,-0.55273
+[CLS] Duron:2 Carter plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.23523
+[CLS] Vlantimir:3 Giankovits:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,shooting guard,0,shooting guard,0,-0.47850
+[CLS] Dan Boyle plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.62368
+[CLS] Janne Jalasvaara:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.41342
+[CLS] Jerrell:2 Freeman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.58179
+[CLS] Paul Johns plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.54219
+[CLS] Drew Bagnall:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.29036
+[CLS] Kenny McKinley plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,wide receiver,0,wide receiver,0,-0.48109
+[CLS] Derrick Coleman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,power forward,0,power forward,0,-0.52194
+[CLS] Steve Logan plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,point guard,0,point guard,0,-0.53436
+[CLS] Marcus Ragnarsson:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.54704
+[CLS] Ben Clymer:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,defenceman:2,0,defenceman:2,0,-0.78007
+[CLS] Eric Hill plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexible:3,linebacker:2,0,linebacker:2,0,-0.79103
+[CLS] Chris Carter plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.22472
+[CLS] Kurtis:2 Mucha:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,goaltender:2,0,goaltender:2,0,-0.52168
+[CLS] Corey Patterson plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,outfielder:3,0,outfielder:3,0,-0.40449
+[CLS] Terry Evans plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,outfielder:3,0,outfielder:3,0,-0.36109
+[CLS] Anton Strålman:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.45377
+[CLS] Rebecca Henderson plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cross - country cycling:2,0,cross - country cycling:2,0,-0.29593
+[CLS] Carl Krauser:2 plays in [MASK] [MASK] [MASK] position . [SEP],the left forward,point guard,0,point guard,0,-0.90588
+[CLS] Jack Shelton:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,inside forward,0,inside forward,0,-0.23671
+[CLS] Chris Claiborne:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.26951
+[CLS] Bill Taugher:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,goaltender:2,0,goaltender:2,0,-0.23210
+[CLS] Heath Farwell:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,linebacker:2,0,linebacker:2,0,-0.65554
+[CLS] Fredrik Andersson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.46647
+[CLS] Lee Won - woo:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,shooting guard,0,shooting guard,0,-0.49954
+[CLS] Yuval:2 Naimy:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,point guard,0,point guard,0,-0.57894
+[CLS] Scott Valentine plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.26985
+[CLS] Erik Affholter:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.46397
+[CLS] Steve McKichan:5 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,goaltender:2,0,goaltender:2,0,-0.55430
+[CLS] Rick Ankiel:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,outfielder:3,0,outfielder:3,0,-0.67179
+[CLS] Anthony Bell plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.23249
+[CLS] William Patterson plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.23174
+[CLS] Sam Anno plays in [MASK] [MASK] [MASK] position . [SEP],the high school,linebacker:2,0,linebacker:2,0,-0.76790
+[CLS] Jonathan Jackson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,linebacker:2,0,linebacker:2,0,-0.78644
+[CLS] Patty Mills plays in [MASK] [MASK] [MASK] position . [SEP],the blank:2,point guard,0,point guard,0,-0.52732
+[CLS] Weston Dacus:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,linebacker:2,0,linebacker:2,0,-0.62210
+[CLS] Vince Coleman plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,outfielder:3,0,outfielder:3,0,-0.35091
+[CLS] Mickey Washington plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,cornerback:2,0,cornerback:2,0,-0.43723
+[CLS] Alec Connell plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,goaltender:2,0,goaltender:2,0,-0.34184
+[CLS] Yuko:2 Oga:2 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,point guard,0,point guard,0,-0.56059
+[CLS] Phillip Livas:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexible:3,wide receiver,0,wide receiver,0,-0.94835
+[CLS] Gary Sittler:2 plays in [MASK] [MASK] [MASK] position . [SEP],the midfield:2,defenceman:2,0,defenceman:2,0,-0.51795
+[CLS] Tyson Marsh plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.25185
+"[CLS] Alan Ball , Sr . plays in [MASK] [MASK] [MASK] [MASK] position . [SEP]",the runner - up,inside forward,0,inside forward,0,-0.60736
+[CLS] Jim Murray plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.29218
+[CLS] Chris Brooks plays in [MASK] [MASK] [MASK] position . [SEP],the left left,wide receiver,0,wide receiver,0,-0.87833
+[CLS] Jason Varitek:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,catcher:2,0,catcher:2,0,-0.26742
+[CLS] Kevin Mitchell plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.50543
+[CLS] Pavel Suchkov:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.50939
+[CLS] Rudy Burgess plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.58204
+[CLS] Desmond Jennings plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,outfielder:3,0,outfielder:3,0,-0.58547
+[CLS] Fred Bednarski:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,placekicker:3,0,placekicker:3,0,-0.23449
+[CLS] Lavonte:3 David plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.52314
+[CLS] Ian Forbes plays in [MASK] [MASK] [MASK] position . [SEP],the left left,defenceman:2,0,defenceman:2,0,-1.01381
+[CLS] Doug Colman:2 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,linebacker:2,0,linebacker:2,0,-0.55599
+[CLS] Zach Walz:3 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,linebacker:2,0,linebacker:2,0,-0.61685
+[CLS] Brian Mahoney:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,shooting guard,0,shooting guard,0,-0.22907
+[CLS] Brad Miller plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,shortstop:2,0,shortstop:2,0,-0.80344
+[CLS] Davy Dona plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,kumite:2,0,kumite:2,0,-0.56249
+[CLS] Brandon Barnes plays in [MASK] [MASK] [MASK] position . [SEP],the left forward,outfielder:3,0,outfielder:3,0,-0.85738
+[CLS] Aaron Wallace plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.61763
+[CLS] Morris Claiborne:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.24323
+[CLS] Reggie Torbor:2 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,linebacker:2,0,linebacker:2,0,-0.36980
+[CLS] Rob Laurie plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,goaltender:2,0,goaltender:2,0,-0.65904
+[CLS] Matt Cain plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,starting pitcher,0,starting pitcher,0,-0.61374
+[CLS] Normunds:2 Sējējs:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.62474
+[CLS] Trumaine:3 McBride:3 plays in [MASK] [MASK] [MASK] position . [SEP],the blanke:2,cornerback:2,0,cornerback:2,0,-0.43522
+[CLS] Kendall Newson:2 plays in [MASK] [MASK] [MASK] position . [SEP],the center center,wide receiver,0,wide receiver,0,-0.82164
+[CLS] Darrell:2 Hill plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.29981
+[CLS] Kenny Higgs:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,point guard,0,point guard,0,-0.25181
+[CLS] Torii:2 Hunter plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,center fielder:2,0,center fielder:2,0,-0.27958
+[CLS] Dimitrios:2 Spanoulis:3 plays in [MASK] [MASK] [MASK] position . [SEP],the left forward,point guard,0,point guard,0,-0.58046
+[CLS] Ivan Basso plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,stage race,0,stage race,0,-0.41213
+[CLS] Brian Lamar Allen plays in [MASK] [MASK] [MASK] position . [SEP],the center center,linebacker:2,0,linebacker:2,0,-0.83593
+[CLS] Lloyd Harrison plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,cornerback:2,0,cornerback:2,0,-0.61990
+[CLS] Daniel Henriksson:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.61589
+[CLS] John Brown plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.21373
+[CLS] Scott LaGrand:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,goaltender:2,0,goaltender:2,0,-0.59003
+[CLS] Justin Masterson:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,starting pitcher,0,starting pitcher,0,-0.28505
+[CLS] Donnie:2 Spragan:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.33860
+[CLS] Joseph Anthony Miller plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,goaltender:2,0,goaltender:2,0,-0.26362
+[CLS] Mike Newkirk:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defensive end,0,defensive end,0,-0.63125
+[CLS] Antonio Banks plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,cornerback:2,0,cornerback:2,0,-0.51740
+[CLS] Biljana:2 Stanković:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,point guard,0,point guard,0,-0.46528
+[CLS] Georgijs:2 Pujacs:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.47664
+[CLS] Garth:2 Jax:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,linebacker:2,0,linebacker:2,0,-0.73801
+[CLS] Alexei Litvinenko:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.53360
+[CLS] Iva:2 Ciglar:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,point guard,0,point guard,0,-0.44383
+[CLS] Charlie Spiller:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.61114
+[CLS] Gordon Kannegiesser:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.53954
+[CLS] Jordan Willis plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - center,goaltender:2,0,goaltender:2,0,-0.95532
+[CLS] Albert Connell plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.25097
+[CLS] Scott Hannan:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.25025
+[CLS] Talman:2 Gardner plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.24368
+[CLS] Gaye:2 Cooley:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,goaltender:2,0,goaltender:2,0,-0.31259
+[CLS] Emanuel King plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,linebacker:2,0,linebacker:2,0,-0.74744
+[CLS] Antonio Porta plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,point guard,0,point guard,0,-0.43925
+[CLS] Steve Mason plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,goaltender:2,0,goaltender:2,0,-0.28166
+[CLS] Michael Brantley:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,outfielder:3,0,outfielder:3,0,-0.26279
+[CLS] Luc Bourdon:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,defenceman:2,0,defenceman:2,0,-0.43408
+[CLS] Juan Pérez plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,outfielder:3,0,outfielder:3,0,-0.41983
+[CLS] Martin Rucker:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,tight end,0,tight end,0,-0.38582
+[CLS] Steve Penney:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,goaltender:2,0,goaltender:2,0,-0.25356
+[CLS] Ike Hilliard:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.27548
+[CLS] Jason Glenn plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.30743
+[CLS] François Lacombe:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,defenceman:2,0,defenceman:2,0,-0.63395
+[CLS] Steve Russ plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,linebacker:2,0,linebacker:2,0,-0.62480
+[CLS] Colton:2 Parayko:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Cyclo:3,defenceman:2,0,defenceman:2,0,-0.96079
+[CLS] Marquis Walker plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexible:3,cornerback:2,0,cornerback:2,0,-0.93032
+[CLS] Serge Aubry:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,goaltender:2,0,goaltender:2,0,-0.51932
+[CLS] Serdar:2 Apaydın:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,shooting guard,0,shooting guard,0,-0.61206
+[CLS] Ahmad Carroll plays in [MASK] [MASK] [MASK] position . [SEP],the center center,cornerback:2,0,cornerback:2,0,-0.78570
+[CLS] Rod Sherman plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,wide receiver,0,wide receiver,0,-0.44265
+[CLS] Eric Ravotti:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.52622
+[CLS] Mikko Mäenpää:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.37645
+[CLS] Monte Simmons plays in [MASK] [MASK] [MASK] position . [SEP],the blank:2,linebacker:2,0,linebacker:2,0,-0.62748
+[CLS] Ezra Butler plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.26261
+[CLS] Glenn Holt plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,wide receiver,0,wide receiver,0,-0.49397
+[CLS] A . B . Brown plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,running back,0,running back,0,-0.61611
+[CLS] Brett Carroll plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,outfielder:3,0,outfielder:3,0,-0.46365
+[CLS] Ty Conklin:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,goaltender:2,0,goaltender:2,0,-0.57473
+[CLS] Lee Jong - wook:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,outfielder:3,0,outfielder:3,0,-0.50876
+[CLS] Blake Ball plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Flexing:3,defenceman:2,0,defenceman:2,0,-0.75299
+[CLS] Todd Seabaugh:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.30238
+[CLS] Jochen Reimer:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,goaltender:2,0,goaltender:2,0,-0.37851
+[CLS] Bob Newland:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.29416
+[CLS] Jakub Jeřábek:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.49881
+[CLS] Mikhail Biryukov:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.52555
+[CLS] Jaelen:2 Strong plays in [MASK] [MASK] [MASK] position . [SEP],the tight tight,wide receiver,0,wide receiver,0,-0.90354
+[CLS] Brandon Flowers plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the A - B,cornerback:2,0,cornerback:2,0,-0.86731
+[CLS] Donnie:2 Avery plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.45058
+[CLS] Peerless:2 Price plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.57480
+[CLS] Martynas:2 Mažeika:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,point guard,0,point guard,0,-0.58107
+[CLS] Vangelis:3 Mantzaris:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,point guard,0,point guard,0,-0.60581
+[CLS] Tony Adamle:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.46301
+[CLS] Angelo Crowell:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.23825
+[CLS] Jaak:2 Salumets:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,point guard,0,point guard,0,-0.47861
+[CLS] John Moore plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.24526
+[CLS] Denis Carufel:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Cyclisme:3,defenceman:2,0,defenceman:2,0,-0.55362
+[CLS] Glenn Healy:2 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,goaltender:2,0,goaltender:2,0,-0.42479
+[CLS] Joe Watson plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.25937
+[CLS] Lorne:2 Knauft:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,defenceman:2,0,defenceman:2,0,-0.66768
+[CLS] Martin Štajnoch:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.45772
+[CLS] Robert Holt plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.26535
+[CLS] George Kontos:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,relief pitcher,0,relief pitcher,0,-0.42471
+[CLS] Dwayne:2 Jarrett:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.19992
+[CLS] Eli Harold plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.53625
+[CLS] Justin Durant plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,linebacker:2,0,linebacker:2,0,-0.73442
+[CLS] Daren:2 Queenan:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,shooting guard,0,shooting guard,0,-0.53294
+[CLS] Rich Aurilia:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,shortstop:2,0,shortstop:2,0,-0.46373
+[CLS] Corey Seager:2 plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,shortstop:2,0,shortstop:2,0,-0.61644
+[CLS] Noah Welch plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,defenceman:2,0,defenceman:2,0,-0.72710
+[CLS] Martin Biron:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,goaltender:2,0,goaltender:2,0,-0.66917
+[CLS] Anthony Grundy:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - right,shooting guard,0,shooting guard,0,-0.62037
+[CLS] Stanford Samuels:2 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,cornerback:2,0,cornerback:2,0,-0.42316
+[CLS] Glenn Fisher plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,goaltender:2,0,goaltender:2,0,-0.46100
+[CLS] Alexandr:2 Hylák:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.51878
+[CLS] Petr Přikryl:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.57438
+[CLS] Derek Dimke:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,placekicker:3,0,placekicker:3,0,-0.58151
+[CLS] Phil Freeman plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.71295
+[CLS] Jeff Brownschidle:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.46009
+[CLS] Arthur A . C . Moore plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.34284
+[CLS] Stanley Jean - Baptiste plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.28036
+[CLS] Eddie Royal plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.52746
+[CLS] Tomáš Houdek:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.45918
+[CLS] Eric Everett plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,cornerback:2,0,cornerback:2,0,-0.63220
+[CLS] Deion:2 Branch plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,wide receiver,0,wide receiver,0,-0.37276
+[CLS] Willie Richardson plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.26920
+[CLS] Allen Aldridge:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.22707
+[CLS] Kendal:2 Thompkins:3 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,wide receiver,0,wide receiver,0,-0.36062
+[CLS] Jamie McBain:4 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.36872
+[CLS] Prince Amukamara:3 plays in [MASK] [MASK] [MASK] position . [SEP],the attacking midfielder,cornerback:2,0,cornerback:2,0,-0.86013
+[CLS] Nathan Saunders plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.55007
+[CLS] Mack Cummings plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.63701
+[CLS] Jamar:2 Newsome:2 plays in [MASK] [MASK] [MASK] position . [SEP],the left forward,wide receiver,0,wide receiver,0,-0.90278
+[CLS] Matija:2 Pintarič:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,goaltender:2,0,goaltender:2,0,-0.51673
+[CLS] Darrent:2 Williams plays in [MASK] [MASK] [MASK] position . [SEP],the rowing:2,cornerback:2,0,cornerback:2,0,-0.51035
+[CLS] Wyatt Toregas:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,catcher:2,0,catcher:2,0,-0.52724
+[CLS] Dmitri Ryabykin:4 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.51106
+[CLS] Frank Blum plays in [MASK] [MASK] [MASK] position . [SEP],the blank:2,goaltender:2,0,goaltender:2,0,-0.51331
+[CLS] Bront:2 Bird plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,linebacker:2,0,linebacker:2,0,-0.56180
+[CLS] Valeri:2 Vasiliev:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.50549
+[CLS] Eddie Dove plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,cornerback:2,0,cornerback:2,0,-0.44760
+[CLS] Vidal Hazelton:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,wide receiver,0,wide receiver,0,-0.64537
+[CLS] Grant Mason plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,cornerback:2,0,cornerback:2,0,-0.38014
+[CLS] Claude Davis plays in [MASK] [MASK] [MASK] position . [SEP],the blanke:2,linebacker:2,0,linebacker:2,0,-0.56443
+[CLS] Andrew Hotham:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.23750
+[CLS] Rasmus Ristolainen:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.51349
+[CLS] Michael Jenkins plays in [MASK] [MASK] [MASK] position . [SEP],the pole -,wide receiver,0,wide receiver,0,-0.99042
+[CLS] Stan Crossett:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.31792
+[CLS] Sean LaChapelle:4 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.25452
+[CLS] Lee Odelein:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,defenceman:2,0,defenceman:2,0,-0.60271
+[CLS] José Cortéz:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,placekicker:3,0,placekicker:3,0,-0.52826
+[CLS] Travis Sanheim:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.50549
+[CLS] Dan Bailey plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,placekicker:3,0,placekicker:3,0,-0.76497
+[CLS] Maxime Moisand:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.65808
+[CLS] Ed O ' Neil plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.26400
+[CLS] Billy Hague plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,goaltender:2,0,goaltender:2,0,-0.52427
+[CLS] Elmer Bennett plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,point guard,0,point guard,0,-0.23837
+[CLS] Dante Hall plays in [MASK] [MASK] [MASK] position . [SEP],the center center,wide receiver,0,wide receiver,0,-0.78624
+[CLS] Adam Emmenecker:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,point guard,0,point guard,0,-0.52331
+[CLS] Jim Bedard:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.26984
+[CLS] John Stevens plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.25005
+[CLS] Bill Bray plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,relief pitcher,0,relief pitcher,0,-0.39922
+[CLS] Trent Tucker plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,shooting guard,0,shooting guard,0,-0.30660
+[CLS] Marvin Jones plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,wide receiver,0,wide receiver,0,-0.53475
+[CLS] Danny Amendola:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.46036
+[CLS] Kevin Barnes plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,cornerback:2,0,cornerback:2,0,-0.45972
+[CLS] Rich Thompson plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the flanket:3,relief pitcher,0,relief pitcher,0,-0.71392
+[CLS] Terry Puhl:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,outfielder:3,0,outfielder:3,0,-0.50477
+[CLS] Jerrell:2 Harris plays in [MASK] [MASK] [MASK] position . [SEP],the defensive end,linebacker:2,0,linebacker:2,0,-0.38758
+[CLS] Paul Shakes:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.28118
+[CLS] Brian Simmons plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,linebacker:2,0,linebacker:2,0,-0.66640
+[CLS] Steve Duchesne:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.29491
+[CLS] John Celestand:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,shooting guard,0,shooting guard,0,-0.30844
+[CLS] Ian Kidd plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - left,defenceman:2,0,defenceman:2,0,-0.55464
+[CLS] Lindsay Middlebrook:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the left - handed,goaltender:2,0,goaltender:2,0,-0.79400
+[CLS] Jared Spurgeon:2 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.24097
+[CLS] Pee:2 Wee:2 Reese plays in [MASK] [MASK] [MASK] position . [SEP],the tight tight,shortstop:2,0,shortstop:2,0,-0.48580
+[CLS] Larry Hale plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,defenceman:2,0,defenceman:2,0,-0.36766
+[CLS] Gilles Gratton:3 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the Cyclisme:3,goaltender:2,0,goaltender:2,0,-0.53709
+[CLS] Michael Thomas plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,wide receiver,0,wide receiver,0,-0.44184
+[CLS] Shawn Jefferson plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,wide receiver,0,wide receiver,0,-0.27849
+[CLS] Brandon Browner:2 plays in [MASK] [MASK] [MASK] position . [SEP],the tight end,cornerback:2,0,cornerback:2,0,-0.73650
+[CLS] Richard Tardits:3 plays in [MASK] [MASK] [MASK] position . [SEP],the bat bat,linebacker:2,0,linebacker:2,0,-0.21969
+[CLS] Niklas:2 Svedberg:2 plays in [MASK] [MASK] [MASK] [MASK] position . [SEP],the runner - up,goaltender:2,0,goaltender:2,0,-0.53267

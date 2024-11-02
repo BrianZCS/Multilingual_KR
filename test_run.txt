@@ -1,0 +1,2 @@
+python scripts/probe.py --model mbert_base --lang nl --pred_dir prediction_folder
+python scripts/ana.py --model mbert_base --lang nl --inp prediction_folder --task reliability

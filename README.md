@@ -1,1 +1,3 @@
 # Multilingual_KR
+
+Changing tokenizer directly is not easy. Traditional, the model is trained on specific tokenizer. Thus, to change tokenizer, we may need to train the model from beginning. It may take a large amount of time and also even though some model like m-Bert, XLM is not trained on sentencepiece tokenizer, it has been realized in XLM-R, and has been test in the article (Jiang et al., 2020). Fortunately, recent papers (Gee et al., 2022) (Minixhofer et al., 2024) has shown way to change tokenizer in zero shot condition. Thus, we want to employ those method and then used on multi lingual knowledge of fact Q&A.

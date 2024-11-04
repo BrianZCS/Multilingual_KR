@@ -99,10 +99,18 @@ def get_tie_breaking(dim: int):
 
 
 def get_tokenizer(lang: str, name: str):
-    if lang == 'ko' and name in {'monologg/kobert-lm'}:
-        return KoBertTokenizer.from_pretrained(name)
-    return AutoTokenizer.from_pretrained(name)
-
+    if lang == 'en':
+        tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
+    elif lang == 'zh':
+        tokenizer = AutoTokenizer.from_pretrained('bert-base-chinese')
+    elif lang == 'es':
+        tokenizer = AutoTokenizer.from_pretrained('dccuchile/bert-base-spanish-wwm-cased')
+    elif lang == 'tr':
+        tokenizer = AutoTokenizer.from_pretrained('dbmdz/bert-base-turkish-cased')
+    if name in {'xlm-mlm-100-1280', 'xlm-roberta-base'}:
+        tokenizer = AutoTokenizer.from_pretrained(name)
+    print(tokenizer.__class__.__name__, ', Vocab Size', tokenizer.vocab_size)
+    return tokenizer
 
 def model_prediction_wrap(model, inp_tensor, attention_mask):
     logit = model(inp_tensor, attention_mask=attention_mask)[0]

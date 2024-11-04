@@ -1,0 +1,11 @@
+nohup: ignoring input
+========== Language: en, Args:  ==========
+acc per fact 3835/45684=0.0839	acc per relation 0.08397034225369258	avg iter 1.0	num_max_mask 1853
+========== Language: es, Args:  ==========
+acc per fact 3231/37065=0.0872	acc per relation 0.09102240315633696	avg iter 1.0	num_max_mask 2121
+========== Language: zh, Args:  ==========
+acc per fact 795/23142=0.0344	acc per relation 0.03777406835729453	avg iter 1.0	num_max_mask 4544
+========== Language: ru, Args:  ==========
+acc per fact 226/26265=0.0086	acc per relation 0.009727514889252695	avg iter 1.0	num_max_mask 4774
+========== Language: tr, Args:  ==========
+acc per fact 136/16104=0.0084	acc per relation 0.009893944342236416	avg iter 1.0	num_max_mask 2498

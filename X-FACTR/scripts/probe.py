@@ -99,11 +99,9 @@ def get_tie_breaking(dim: int):
 
 
 def get_tokenizer(lang: str, name: str):
-    # if lang == 'ko' and name in {'monologg/kobert-lm'}:
-    #     return KoBertTokenizer.from_pretrained(name)
-    # return AutoTokenizer.from_pretrained(name)
-    return AutoTokenizer.from_pretrained("xlm-roberta-base")
-
+    if lang == 'ko' and name in {'monologg/kobert-lm'}:
+        return KoBertTokenizer.from_pretrained(name)
+    return AutoTokenizer.from_pretrained(name)
 
 def model_prediction_wrap(model, inp_tensor, attention_mask):
     logit = model(inp_tensor, attention_mask=attention_mask)[0]

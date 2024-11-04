@@ -1,0 +1,99 @@
+python scripts/probe.py --probe mlama --model mbert_base --lang zh --pred_dir ./evl_mbert_mlama//zh/  &> ./evl_mbert_mlama//zh.out
+[dynet] random seed: 3277126013
+[dynet] allocating memory: 512MB
+[dynet] memory allocation done.
+load data
+load model
+pid P19	acc 0.0067/0.0067	len_acc 0.1409/0.1409	prompt [X]的出生地是[Y]。
+pid P19	#fact 149	#notrans 849	#notexist 2	#multiword 149,False	#singleword 0,False	oracle 0.0067	time 2.0
+pid P20	acc 0.0000/0.0000	len_acc 0.1293/0.1293	prompt [X]的死亡地是[Y]。
+pid P20	#fact 147	#notrans 852	#notexist 1	#multiword 147,False	#singleword 0,False	oracle 0.0000	time 1.9
+pid P279	acc 0.0100/0.0100	len_acc 0.2048/0.2048	prompt [X]的父类是[Y]。
+pid P279	#fact 498	#notrans 487	#notexist 15	#multiword 479,False	#singleword 19,False	oracle 0.0100	time 5.4
+pid P37	acc 0.0371/0.0371	len_acc 0.2725/0.2725	prompt [X]的官方语言是[Y]。
+pid P37	#fact 943	#notrans 57	#notexist 0	#multiword 943,False	#singleword 0,False	oracle 0.0371	time 10.7
+pid P413	acc 0.5435/0.5435	len_acc 0.6812/0.6812	prompt [X]的场上位置是[Y]。
+pid P413	#fact 138	#notrans 862	#notexist 0	#multiword 138,False	#singleword 0,False	oracle 0.5435	time 1.6
+pid P166	acc 0.0000/0.0000	len_acc 0.0000/0.0000	prompt [X]被授予[Y]。
+pid P166	#fact 343	#notrans 655	#notexist 2	#multiword 343,False	#singleword 0,False	oracle 0.0000	time 3.9
+pid P449	acc 0.0000/0.0000	len_acc 0.1449/0.1449	prompt [X]首播于[Y]。
+pid P449	#fact 283	#notrans 715	#notexist 2	#multiword 266,False	#singleword 17,False	oracle 0.0000	time 3.1
+pid P69	acc 0.0000/0.0000	len_acc 0.2583/0.2583	prompt [X]就读于[Y]。
+pid P69	#fact 120	#notrans 879	#notexist 1	#multiword 120,False	#singleword 0,False	oracle 0.0000	time 1.4
+pid P47	acc 0.0000/0.0000	len_acc 0.2087/0.2087	prompt [X]和[Y]接壤。
+pid P47	#fact 896	#notrans 104	#notexist 0	#multiword 896,False	#singleword 0,False	oracle 0.0000	time 9.6
+pid P138	acc 0.0403/0.0403	len_acc 0.1119/0.1119	prompt [X]是以[Y]命名的。
+pid P138	#fact 447	#notrans 546	#notexist 7	#multiword 446,False	#singleword 1,False	oracle 0.0403	time 5.6
+pid P364	acc 0.0106/0.0106	len_acc 0.2169/0.2169	prompt [X]的创作语言是[Y]。
+pid P364	#fact 189	#notrans 810	#notexist 1	#multiword 189,False	#singleword 0,False	oracle 0.0106	time 2.3
+pid P54	acc 0.0000/0.0000	len_acc 0.0305/0.0305	prompt [X]的所属运动队是[Y]。
+pid P54	#fact 164	#notrans 835	#notexist 1	#multiword 164,False	#singleword 0,False	oracle 0.0000	time 2.1
+pid P463	acc 0.0030/0.0030	len_acc 0.0212/0.0212	prompt [X]是[Y]的成员。
+pid P463	#fact 330	#notrans 668	#notexist 2	#multiword 329,False	#singleword 1,False	oracle 0.0030	time 4.1
+pid P101	acc 0.0024/0.0024	len_acc 0.0979/0.0979	prompt [X]的工作领域是[Y]。
+pid P101	#fact 419	#notrans 581	#notexist 0	#multiword 419,False	#singleword 0,False	oracle 0.0024	time 5.4
+pid P1923	acc 0.0000/0.0000	len_acc 0.0081/0.0081	prompt [X]的参与队伍是[Y]。
+pid P1923	#fact 862	#notrans 124	#notexist 14	#multiword 862,False	#singleword 0,False	oracle 0.0000	time 11.3
+pid P106	acc 0.0000/0.0000	len_acc 0.1504/0.1504	prompt [X]的职业是[Y]。
+pid P106	#fact 226	#notrans 774	#notexist 0	#multiword 225,False	#singleword 1,False	oracle 0.0000	time 2.6
+pid P527	acc 0.0332/0.0332	len_acc 0.2148/0.2148	prompt [X]子类是[Y]。
+pid P527	#fact 391	#notrans 574	#notexist 35	#multiword 288,False	#singleword 103,False	oracle 0.0332	time 4.1
+pid P102	acc 0.0000/0.0000	len_acc 0.0258/0.0258	prompt [X]属于[Y]政党。
+pid P102	#fact 155	#notrans 844	#notexist 1	#multiword 155,False	#singleword 0,False	oracle 0.0000	time 1.9
+pid P530	acc 0.0020/0.0020	len_acc 0.2740/0.2740	prompt [X]与[Y]是邦交国。
+pid P530	#fact 1000	#notrans 0	#notexist 0	#multiword 1000,False	#singleword 0,False	oracle 0.0020	time 10.2
+pid P176	acc 0.0940/0.0940	len_acc 0.2163/0.2163	prompt [X]的生产商是[Y]。
+pid P176	#fact 319	#notrans 677	#notexist 4	#multiword 314,False	#singleword 5,False	oracle 0.0940	time 3.7
+pid P27	acc 0.0155/0.0155	len_acc 0.5648/0.5648	prompt [X]的国籍是[Y]。
+pid P27	#fact 193	#notrans 806	#notexist 1	#multiword 193,False	#singleword 0,False	oracle 0.0155	time 2.3
+pid P407	acc 0.0474/0.0474	len_acc 0.3212/0.3212	prompt [X]的语言是[Y]。
+pid P407	#fact 274	#notrans 723	#notexist 3	#multiword 274,False	#singleword 0,False	oracle 0.0474	time 3.0
+pid P30	acc 0.0011/0.0011	len_acc 0.1910/0.1910	prompt [X]所属大洲是[Y]。
+pid P30	#fact 890	#notrans 107	#notexist 3	#multiword 890,False	#singleword 0,False	oracle 0.0011	time 9.4
+pid P178	acc 0.0135/0.0135	len_acc 0.1111/0.1111	prompt [X]是由[Y]开发的。
+pid P178	#fact 297	#notrans 699	#notexist 4	#multiword 290,False	#singleword 7,False	oracle 0.0135	time 3.6
+pid P1376	acc 0.0014/0.0014	len_acc 0.1291/0.1291	prompt [X]是[Y]的首府。
+pid P1376	#fact 736	#notrans 262	#notexist 2	#multiword 736,False	#singleword 0,False	oracle 0.0014	time 7.7
+pid P131	acc 0.0106/0.0106	len_acc 0.2660/0.2660	prompt [X]的行政区是[Y]。
+pid P131	#fact 282	#notrans 717	#notexist 1	#multiword 282,False	#singleword 0,False	oracle 0.0106	time 3.4
+pid P1412	acc 0.0569/0.0569	len_acc 0.3049/0.3049	prompt [X]的语言是[Y]。
+pid P1412	#fact 246	#notrans 754	#notexist 0	#multiword 246,False	#singleword 0,False	oracle 0.0569	time 3.2
+pid P108	acc 0.0000/0.0000	len_acc 0.1759/0.1759	prompt [X]的雇主是[Y]。
+pid P108	#fact 199	#notrans 800	#notexist 1	#multiword 199,False	#singleword 0,False	oracle 0.0000	time 2.4
+pid P136	acc 0.0000/0.0000	len_acc 0.3833/0.3833	prompt [X]的艺术流派是[Y]。
+pid P136	#fact 227	#notrans 772	#notexist 1	#multiword 227,False	#singleword 0,False	oracle 0.0000	time 2.7
+pid P17	acc 0.0129/0.0129	len_acc 0.1961/0.1961	prompt [X]的主权国家是[Y]。
+pid P17	#fact 311	#notrans 689	#notexist 0	#multiword 311,False	#singleword 0,False	oracle 0.0129	time 3.7
+pid P39	acc 0.0265/0.0265	len_acc 0.1888/0.1888	prompt [X]的职位是[Y]。
+pid P39	#fact 339	#notrans 659	#notexist 2	#multiword 339,False	#singleword 0,False	oracle 0.0265	time 4.1
+pid P264	acc 0.0000/0.0000	len_acc 0.1696/0.1696	prompt [X]的唱片厂商是[Y]。
+pid P264	#fact 112	#notrans 887	#notexist 1	#multiword 112,False	#singleword 0,False	oracle 0.0000	time 1.4
+pid P276	acc 0.0635/0.0635	len_acc 0.2159/0.2159	prompt [X]位于[Y]。
+pid P276	#fact 315	#notrans 684	#notexist 1	#multiword 315,False	#singleword 0,False	oracle 0.0635	time 3.7
+pid P937	acc 0.0000/0.0000	len_acc 0.1050/0.1050	prompt [X]的工作地点是[Y]。
+pid P937	#fact 238	#notrans 760	#notexist 2	#multiword 238,False	#singleword 0,False	oracle 0.0000	time 3.2
+pid P140	acc 0.0186/0.0186	len_acc 0.1118/0.1118	prompt [X]的宗教信仰是[Y]。
+pid P140	#fact 322	#notrans 675	#notexist 3	#multiword 322,False	#singleword 0,False	oracle 0.0186	time 4.2
+pid P1303	acc 0.0000/0.0000	len_acc 0.4356/0.4356	prompt [X]演奏[Y]。
+pid P1303	#fact 163	#notrans 837	#notexist 0	#multiword 161,False	#singleword 2,False	oracle 0.0000	time 1.8
+pid P127	acc 0.0064/0.0064	len_acc 0.0449/0.0449	prompt [X]归[Y]所有。
+pid P127	#fact 312	#notrans 683	#notexist 5	#multiword 310,False	#singleword 2,False	oracle 0.0064	time 3.4
+pid P103	acc 0.1512/0.1512	len_acc 0.7654/0.7654	prompt [X]的母语是[Y]。
+pid P103	#fact 324	#notrans 675	#notexist 1	#multiword 324,False	#singleword 0,False	oracle 0.1512	time 4.0
+pid P190	acc 0.0092/0.0092	len_acc 0.3105/0.3105	prompt [X]与[Y]是友好城市。
+pid P190	#fact 979	#notrans 21	#notexist 0	#multiword 979,False	#singleword 0,False	oracle 0.0092	time 10.3
+pid P1001	acc 0.2099/0.2099	len_acc 0.3395/0.3395	prompt [X]的管辖范围是[Y]。
+pid P1001	#fact 486	#notrans 514	#notexist 0	#multiword 486,False	#singleword 0,False	oracle 0.2099	time 6.1
+pid P31	acc 0.0294/0.0294	len_acc 0.2235/0.2235	prompt [X]属于[Y]。
+pid P31	#fact 340	#notrans 657	#notexist 3	#multiword 336,False	#singleword 4,False	oracle 0.0294	time 3.6
+pid P495	acc 0.0076/0.0076	len_acc 0.2824/0.2824	prompt [X]的原产地是[Y]。
+pid P495	#fact 262	#notrans 737	#notexist 1	#multiword 262,False	#singleword 0,False	oracle 0.0076	time 3.1
+pid P159	acc 0.0542/0.0542	len_acc 0.3032/0.3032	prompt [X]的总部位于[Y]。
+pid P159	#fact 277	#notrans 723	#notexist 0	#multiword 277,False	#singleword 0,False	oracle 0.0542	time 3.2
+pid P36	acc 0.1299/0.1299	len_acc 0.3732/0.3732	prompt [X]的行政中心是[Y]。
+pid P36	#fact 785	#notrans 212	#notexist 3	#multiword 785,False	#singleword 0,False	oracle 0.1299	time 9.2
+pid P740	acc 0.0000/0.0000	len_acc 0.1814/0.1814	prompt [X]成立于[Y]。
+pid P740	#fact 237	#notrans 763	#notexist 0	#multiword 237,False	#singleword 0,False	oracle 0.0000	time 2.5
+pid P361	acc 0.0000/0.0000	len_acc 0.0553/0.0553	prompt [X]构成[Y]。
+pid P361	#fact 380	#notrans 618	#notexist 2	#multiword 376,False	#singleword 4,False	oracle 0.0000	time 4.6
+acc per fact 552/17545=0.0315	acc per relation 0.03584297780440382	avg iter 1.0	num_max_mask 3842

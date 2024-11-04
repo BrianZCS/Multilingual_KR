@@ -1,0 +1,763 @@
+python scripts/probe.py --probe mlama --model mbert_base --lang tr --pred_dir ./evl_mbert_mlama//tr/  &> ./evl_mbert_mlama//tr.out
+[dynet] random seed: 425549771
+[dynet] allocating memory: 512MB
+[dynet] memory allocation done.
+load data
+load model
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ß is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P19	acc 0.0000/0.0000	len_acc 0.3137/0.2647	prompt [X] [Y.Loc] doğdu .
+pid P19	#fact 102	#notrans 898	#notexist 0	#multiword 63,False	#singleword 39,False	oracle 0.0000	time 16.0
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P20	acc 0.0000/0.0000	len_acc 0.1196/0.4130	prompt [X] [Y.Loc] öldü .
+pid P20	#fact 92	#notrans 908	#notexist 0	#multiword 48,False	#singleword 44,False	oracle 0.0000	time 6.2
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 7 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P279	acc 0.0000/0.0000	len_acc 0.0791/0.1209	prompt [X] [Y.Gen] alt sınıfıdır .
+pid P279	#fact 215	#notrans 785	#notexist 0	#multiword 196,False	#singleword 19,False	oracle 0.0000	time 41.4
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character å is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ã is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character å is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character å is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ó is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character å is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character å is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character è is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ä is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P37	acc 0.0000/0.0000	len_acc 0.0108/0.1557	prompt [X.Gen] resmi dili [Y;be] .
+pid P37	#fact 835	#notrans 165	#notexist 0	#multiword 725,False	#singleword 110,False	oracle 0.0000	time 59.6
+pid P413	acc 0.0000/0.0000	len_acc 0.2000/0.2000	prompt [X] [Y] pozisyonunda oynar .
+pid P413	#fact 105	#notrans 895	#notexist 0	#multiword 105,False	#singleword 0,False	oracle 0.0000	time 1.2
+pid P166	acc 0.0000/0.0000	len_acc 0.0067/0.0067	prompt [X] [Y] ile ödüllendirildi .
+pid P166	#fact 149	#notrans 851	#notexist 0	#multiword 149,False	#singleword 0,False	oracle 0.0000	time 1.8
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P449	acc 0.0000/0.0000	len_acc 0.2069/0.1724	prompt [X] orijinal olarak [Y.Loc] yayınlandı .
+pid P449	#fact 58	#notrans 942	#notexist 0	#multiword 44,False	#singleword 14,False	oracle 0.0000	time 3.0
+pid P69	acc 0.0000/0.0000	len_acc 0.4237/0.4237	prompt [X] [Y] Üniversitesi'nde eğitim aldı .
+pid P69	#fact 59	#notrans 941	#notexist 0	#multiword 59,False	#singleword 0,False	oracle 0.0000	time 0.6
+pid P47	acc 0.0000/0.0000	len_acc 0.1717/0.1717	prompt [X] [Y] ile sınır paylaşır .
+pid P47	#fact 431	#notrans 569	#notexist 0	#multiword 379,False	#singleword 52,False	oracle 0.0000	time 4.6
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P138	acc 0.0000/0.0308	len_acc 0.1538/0.2154	prompt [X] [Y.Gen] ismini aldı .
+pid P138	#fact 130	#notrans 870	#notexist 0	#multiword 118,False	#singleword 12,False	oracle 0.0000	time 29.6
+The character ( is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character : is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ó is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character : is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ú is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character & is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P364	acc 0.0000/0.0000	len_acc 0.0000/0.4574	prompt [X.Gen] orijinal dili [Y;be] .
+pid P364	#fact 94	#notrans 904	#notexist 2	#multiword 49,False	#singleword 45,False	oracle 0.0000	time 28.0
+pid P54	acc 0.0000/0.0000	len_acc 0.0556/0.0556	prompt [X] [Y] ile oynar .
+pid P54	#fact 108	#notrans 892	#notexist 0	#multiword 108,False	#singleword 0,False	oracle 0.0000	time 1.1
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P463	acc 0.0000/0.0000	len_acc 0.1031/0.2165	prompt [X] [Y.Gen] bir üyesidir .
+pid P463	#fact 194	#notrans 806	#notexist 0	#multiword 175,False	#singleword 19,False	oracle 0.0000	time 16.7
+pid P101	acc 0.0574/0.0574	len_acc 0.1675/0.1675	prompt [X] [Y] alanında çalışır .
+pid P101	#fact 209	#notrans 791	#notexist 0	#multiword 179,False	#singleword 30,False	oracle 0.0574	time 2.3
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P1923	acc 0.0000/0.0000	len_acc 0.0043/0.0043	prompt [Y] [X.Acc] katıldı .
+pid P1923	#fact 704	#notrans 251	#notexist 45	#multiword 704,False	#singleword 0,False	oracle 0.0000	time 17.3
+pid P106	acc 0.0000/0.0000	len_acc 0.0000/0.3840	prompt [X] meslek olarak [Y;be] .
+pid P106	#fact 125	#notrans 875	#notexist 0	#multiword 75,False	#singleword 50,False	oracle 0.0000	time 1.4
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ( is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 7 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P527	acc 0.0000/0.0000	len_acc 0.0319/0.1543	prompt [X] [Y.Abl] oluşur .
+pid P527	#fact 188	#notrans 811	#notexist 1	#multiword 175,False	#singleword 13,False	oracle 0.0000	time 42.9
+pid P102	acc 0.0000/0.0000	len_acc 0.0000/0.0000	prompt [X] [Y] partisinin üyesidir .
+pid P102	#fact 64	#notrans 936	#notexist 0	#multiword 64,False	#singleword 0,False	oracle 0.0000	time 0.7
+pid P530	acc 0.0000/0.0000	len_acc 0.3360/0.3360	prompt [X] [Y] ile diplomatik ilişkiler sürdürmektedir .
+pid P530	#fact 1000	#notrans 0	#notexist 0	#multiword 429,False	#singleword 571,False	oracle 0.0000	time 11.1
+pid P176	acc 0.2768/0.2768	len_acc 0.3842/0.3842	prompt [X] [Y] tarafından üretilir .
+pid P176	#fact 177	#notrans 823	#notexist 0	#multiword 87,False	#singleword 90,False	oracle 0.2768	time 1.9
+pid P27	acc 0.0455/0.0455	len_acc 0.2636/0.2636	prompt [X] bir [Y] vatandaşıdır .
+pid P27	#fact 110	#notrans 890	#notexist 0	#multiword 83,False	#singleword 27,False	oracle 0.0455	time 1.2
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P407	acc 0.0000/0.0000	len_acc 0.4077/0.3385	prompt [X] [Y.Loc] yazıldı .
+pid P407	#fact 390	#notrans 605	#notexist 5	#multiword 270,False	#singleword 120,False	oracle 0.0000	time 15.3
+pid P30	acc 0.0000/0.0000	len_acc 0.3056/0.2917	prompt [X] [Y.Loc] bulunur .
+pid P30	#fact 72	#notrans 928	#notexist 0	#multiword 31,False	#singleword 41,False	oracle 0.0000	time 0.9
+pid P178	acc 0.0261/0.0261	len_acc 0.2087/0.2087	prompt [X] [Y] tarafından geliştirildi .
+pid P178	#fact 115	#notrans 885	#notexist 0	#multiword 75,False	#singleword 40,False	oracle 0.0261	time 1.3
+The character ( is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ( is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ( is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ß is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P1376	acc 0.0000/0.0021	len_acc 0.1111/0.1239	prompt [X] [Y.Gen] başkentidir .
+pid P1376	#fact 468	#notrans 532	#notexist 0	#multiword 416,False	#singleword 52,False	oracle 0.0000	time 61.3
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ō is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P131	acc 0.0000/0.0000	len_acc 0.1282/0.2821	prompt [X] [Y.Loc] bulunur .
+pid P131	#fact 117	#notrans 883	#notexist 0	#multiword 73,False	#singleword 44,False	oracle 0.0000	time 15.2
+pid P1412	acc 0.0295/0.0295	len_acc 0.2194/0.2194	prompt [X] [Y] dilinde iletişim kurardı .
+pid P1412	#fact 237	#notrans 763	#notexist 0	#multiword 196,False	#singleword 41,False	oracle 0.0295	time 2.7
+pid P108	acc 0.0000/0.0000	len_acc 0.1609/0.1609	prompt [X] [Y] için çalışır .
+pid P108	#fact 87	#notrans 913	#notexist 0	#multiword 75,False	#singleword 12,False	oracle 0.0000	time 0.9
+pid P136	acc 0.0000/0.0000	len_acc 0.1000/0.1000	prompt [X] [Y] müzik yapar .
+pid P136	#fact 120	#notrans 880	#notexist 0	#multiword 108,False	#singleword 12,False	oracle 0.0000	time 1.3
+pid P17	acc 0.0000/0.0000	len_acc 0.2381/0.5578	prompt [X] [Y.Loc] bulunur .
+pid P17	#fact 147	#notrans 853	#notexist 0	#multiword 38,False	#singleword 109,False	oracle 0.0000	time 3.5
+pid P39	acc 0.0000/0.0000	len_acc 0.0855/0.0855	prompt [X] [Y] pozisyonuna sahiptir .
+pid P39	#fact 152	#notrans 848	#notexist 0	#multiword 138,False	#singleword 14,False	oracle 0.0000	time 1.7
+pid P264	acc 0.0000/0.0000	len_acc 0.2990/0.2990	prompt [X] [Y] müzik şirketi tarafından temsil edilir .
+pid P264	#fact 97	#notrans 902	#notexist 1	#multiword 83,False	#singleword 14,False	oracle 0.0000	time 1.1
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P276	acc 0.0000/0.0000	len_acc 0.1027/0.1712	prompt [X] [Y.Loc] bulunur .
+pid P276	#fact 146	#notrans 854	#notexist 0	#multiword 105,False	#singleword 41,False	oracle 0.0000	time 13.6
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P937	acc 0.0000/0.0000	len_acc 0.2000/0.6061	prompt [X] [Y.Loc] çalışırdı .
+pid P937	#fact 165	#notrans 835	#notexist 0	#multiword 47,False	#singleword 118,False	oracle 0.0000	time 6.0
+pid P140	acc 0.0120/0.0120	len_acc 0.1867/0.1867	prompt [X] [Y] dinine mensuptur .
+pid P140	#fact 166	#notrans 833	#notexist 1	#multiword 129,False	#singleword 37,False	oracle 0.0120	time 1.9
+pid P1303	acc 0.0000/0.0000	len_acc 0.3448/0.3448	prompt [X] [Y] çalar .
+pid P1303	#fact 116	#notrans 884	#notexist 0	#multiword 98,False	#singleword 18,False	oracle 0.0000	time 1.3
+The character & is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P127	acc 0.0000/0.0000	len_acc 0.0855/0.3248	prompt [X] [Y.Dat] aittir .
+pid P127	#fact 117	#notrans 883	#notexist 0	#multiword 91,False	#singleword 26,False	oracle 0.0000	time 15.0
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character í is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character è is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ë is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ë is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ï is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character è is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character č is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ā is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P103	acc 0.0000/0.0000	len_acc 0.0321/0.0429	prompt [X.Gen] anadili [Y;be] .
+pid P103	#fact 280	#notrans 720	#notexist 0	#multiword 265,False	#singleword 15,False	oracle 0.0000	time 62.3
+pid P190	acc 0.0022/0.0022	len_acc 0.2621/0.2621	prompt [X] ve [Y] ikiz şehirlerdir .
+pid P190	#fact 908	#notrans 92	#notexist 0	#multiword 505,False	#singleword 403,False	oracle 0.0022	time 9.7
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P1001	acc 0.0000/0.0169	len_acc 0.1798/0.2921	prompt [X] [Y.Loc] bir yasal şarttır .
+pid P1001	#fact 178	#notrans 822	#notexist 0	#multiword 112,False	#singleword 66,False	oracle 0.0000	time 10.5
+pid P31	acc 0.0000/0.0000	len_acc 0.2147/0.1104	prompt [X] bir [Y;be] .
+pid P31	#fact 163	#notrans 837	#notexist 0	#multiword 152,False	#singleword 11,False	oracle 0.0000	time 1.8
+pid P495	acc 0.0000/0.0000	len_acc 0.0865/0.1923	prompt [X] [Y.Loc] yaratıldı .
+pid P495	#fact 104	#notrans 896	#notexist 0	#multiword 82,False	#singleword 22,False	oracle 0.0000	time 1.5
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ž is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ë is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character . is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ú is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 7 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character & is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P159	acc 0.0000/0.0000	len_acc 0.1111/0.3590	prompt [X.Gen] karargahı [Y.Loc] .
+pid P159	#fact 117	#notrans 883	#notexist 0	#multiword 65,False	#singleword 52,False	oracle 0.0000	time 33.6
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character č is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ø is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character č is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character á is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ñ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1315: UserWarning: Persisting input arguments took 1.05s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;LOC;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1324: UserWarning: Persisting input arguments took 1.11s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1324: UserWarning: Persisting input arguments took 0.81s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1324: UserWarning: Persisting input arguments took 0.84s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1324: UserWarning: Persisting input arguments took 0.80s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1324: UserWarning: Persisting input arguments took 0.70s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1254: UserWarning: Persisting input arguments took 0.91s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1263: UserWarning: Persisting input arguments took 1.11s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;ACC;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1351: UserWarning: Persisting input arguments took 1.83s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1351: UserWarning: Persisting input arguments took 0.63s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1351: UserWarning: Persisting input arguments took 1.07s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1351: UserWarning: Persisting input arguments took 0.81s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;ABL;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1324: UserWarning: Persisting input arguments took 0.94s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1254: UserWarning: Persisting input arguments took 0.87s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1254: UserWarning: Persisting input arguments took 0.89s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1254: UserWarning: Persisting input arguments took 1.00s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+/afs/cs.wisc.edu/u/z/z/zzheng/CS769/Project/X-FACTR/scripts/prompt.py:1254: UserWarning: Persisting input arguments took 1.04s to run.If this happens often in your code, it can cause performance problems (results will be correct in all cases). The reason for this is probably some large input arguments for a wrapped function.
+  temp = cache_inflect(label2, f"N;GEN;{ent_number}", language='tur')[0]
+
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character č is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P36	acc 0.0000/0.0660	len_acc 0.0915/0.2404	prompt [X.Gen] başkenti [Y;be] .
+pid P36	#fact 470	#notrans 530	#notexist 0	#multiword 370,False	#singleword 100,False	oracle 0.0000	time 71.4
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character q is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character , is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P740	acc 0.0000/0.0000	len_acc 0.1988/0.4410	prompt [X] [Y.Loc] kuruldu .
+pid P740	#fact 161	#notrans 839	#notexist 0	#multiword 68,False	#singleword 93,False	oracle 0.0000	time 9.0
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character é is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 1 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character ̇ is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+The character 2 is not in the languages alphabet (which means it doesn't appear in the Unimorph data).
+If the character is uppercase, maybe lowercasing the input could help?
+pid P361	acc 0.0000/0.0000	len_acc 0.0631/0.1261	prompt [X] [Y.Gen] parçasıdır .
+pid P361	#fact 111	#notrans 889	#notexist 0	#multiword 107,False	#singleword 4,False	oracle 0.0000	time 16.9
+acc per fact 80/10353=0.0077	acc per relation 0.009773491935488791	avg iter 1.0	num_max_mask 1722

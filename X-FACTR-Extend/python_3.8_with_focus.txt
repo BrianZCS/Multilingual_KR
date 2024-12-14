@@ -1,0 +1,13 @@
+# pip install Cython
+pip install -r requirements_38.txt 
+# pip install sentencepiece
+
+# For focus
+pip install deepfocus # if you have python >= 3.10
+git pull https://github.com/konstantinjdobler/focus.git
+# You need to manully change the code to make sure they are compatible with the python3.8
+# from typing import Union
+# from typing import List
+# from typing import Dict
+pip install numpy==1.23.5
+pip install torch==1.10

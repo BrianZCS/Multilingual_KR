@@ -1,0 +1,28 @@
+# Core Libraries
+numpy==1.22
+pandas==1.1.5  # Latest compatible with Python 3.8 for older systems
+matplotlib==3.2.1
+termcolor==1.1.0
+overrides==2.8.0
+
+# Machine Learning Libraries
+torch==1.10  # Compatible with Python 3.8 and CUDA 10.2/11.1
+tensorflow==2.11.0  # Latest compatible with Python 3.8
+tensorflow-gpu==2.11.0  #2.4.3
+
+# SPARQL Library
+SPARQLWrapper==1.8.5
+
+# NLP Libraries
+transformers==2.11.0 # Supports Python 3.8 and provides backward compatibility
+spacy==2.3.7  # Last version supporting Python 3.8
+pythainlp==2.1.4  # Supports Python 3.8
+jieba==0.42.1
+kytea==0.1.7
+dynet
+
+# Fairseq
+fairseq==0.10.2  # Compatible with Python 3.8
+
+# Visualization and Logging
+tensorboardX==2.4  # Updated for Python 3.8

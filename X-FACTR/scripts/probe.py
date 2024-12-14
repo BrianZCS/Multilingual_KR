@@ -118,7 +118,8 @@ def model_prediction_wrap(model, inp_tensor, attention_mask):
     elif transformers.__version__ in {'2.3.0'}:
         pass
     else:
-        raise Exception('not sure whether version {} is correct'.format(transformers.__version__))
+        pass
+        #raise Exception('not sure whether version {} is correct'.format(transformers.__version__))
     return logit
 
 

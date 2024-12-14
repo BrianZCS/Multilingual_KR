@@ -1,6 +1,8 @@
 import sys
 from os.path import dirname, abspath
+from pathlib import Path
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
+sys.path.append(str(Path(__file__).parent.parent))
 
 from typing import List, Dict, Tuple, Set, Union
 import traceback
@@ -36,12 +38,6 @@ PROMPT_LANG_PATH = 'data/TREx_prompts.csv'
 LM_NAME = {
     # multilingual model
     'mbert_base': 'bert-base-multilingual-cased',
-    'mbert_focus_tr_1000': '/u/z/z/zzheng/CS769/Project/X-FACTR-Extend/wiki_tr_1000_output',
-    'mbert_focus_zh_1000': '/u/z/z/zzheng/CS769/Project/X-FACTR-Extend/wiki_zh_1000_output',
-    'mbert_focus_tr_5000': '/u/z/z/zzheng/CS769/Project/X-FACTR-Extend/wiki_tr_5000_output',
-    'mbert_focus_zh_5000': '/u/z/z/zzheng/CS769/Project/X-FACTR-Extend/wiki_zh_5000_output',
-    'mbert_focus_tr_10000': '/u/z/z/zzheng/CS769/Project/X-FACTR-Extend/wiki_tr_10000_output',
-    'mbert_focus_zh_10000': '/u/z/z/zzheng/CS769/Project/X-FACTR-Extend/wiki_zh_10000_output',
     'xlm_base': 'xlm-mlm-100-1280',
     'xlmr_base': 'xlm-roberta-base',
     # language-specific model
@@ -105,9 +101,18 @@ def get_tie_breaking(dim: int):
 
 
 def get_tokenizer(lang: str, name: str):
-    if lang == 'ko' and name in {'monologg/kobert-lm'}:
-        return KoBertTokenizer.from_pretrained(name)
-    return AutoTokenizer.from_pretrained(name)
+    if lang == 'en':
+        tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
+    elif lang == 'zh':
+        tokenizer = AutoTokenizer.from_pretrained('bert-base-chinese')
+    elif lang == 'es':
+        tokenizer = AutoTokenizer.from_pretrained('dccuchile/bert-base-spanish-wwm-cased')
+    elif lang == 'tr':
+        tokenizer = AutoTokenizer.from_pretrained('dbmdz/bert-base-turkish-cased')
+    if name in {'xlm-mlm-100-1280', 'xlm-roberta-base'}:
+        tokenizer = AutoTokenizer.from_pretrained(name)
+    print(tokenizer.__class__.__name__, ', Vocab Size', tokenizer.vocab_size)
+    return tokenizer
 
 def model_prediction_wrap(model, inp_tensor, attention_mask):
     logit = model(inp_tensor, attention_mask=attention_mask)[0]
@@ -1136,6 +1141,46 @@ if __name__ == '__main__':
     # load model
     print('load model')
     model = AutoModelWithLMHead.from_pretrained(LM)
+
+    ## Implement FOCUS
+    #from deepfocus import FOCUS
+    import deepfocus.focus
+    from deepfocus.focus import FOCUS
+    source_tokenizer = AutoTokenizer.from_pretrained(LM)
+    target_embeddings = FOCUS(
+        source_embeddings=model.get_input_embeddings().weight,
+        source_tokenizer=source_tokenizer,
+        target_tokenizer=tokenizer,
+        # target_training_data_path="/path/to/data.txt"
+        # fasttext_model_path="/path/to/fasttext.bin", # or directly provide path to token-level fasttext model 
+
+        # In the paper, we use `target_training_data_path` but we also implement using
+        # WECHSEL's word-to-subword mapping if the language has pretrained fasttext word embeddings available online
+        # To use, supply a two-letter `language_identifier` (e.g. "de" for German) instead of `target_training_data_path` and set:
+        auxiliary_embedding_mode="fasttext-wordlevel",
+        language_identifier=args.lang
+    )
+    model.resize_token_embeddings(len(tokenizer))
+    model.get_input_embeddings().weight.data = target_embeddings
+
+    # if the model has separate output embeddings, apply FOCUS separately
+    if hasattr(model.config, "tie_word_embeddings") and not model.config.tie_word_embeddings:
+        target_output_embeddings = FOCUS(
+            source_embeddings=model.get_output_embeddings().weight,
+            source_tokenizer=source_tokenizer,
+            target_tokenizer=model,
+            # target_training_data_path="/path/to/data.txt"
+            # fasttext_model_path="/path/to/fasttext.bin", # or directly provide path to token-level fasttext model 
+
+            # In the paper, we use `target_training_data_path` but we also implement using
+            # WECHSEL's word-to-subword mapping if the language has pretrained fasttext word embeddings available online
+            # To use, supply a two-letter `language_identifier` (e.g. "de" for German) instead of `target_training_data_path` and set:
+            auxiliary_embedding_mode="fasttext-wordlevel",
+            language_identifier=args.lang,
+        )
+        model.get_output_embeddings().weight.data = target_output_embeddings
+    print('Finish Tokenizer Transfer with FOCUS')
+
     if args.lm_layer_model is not None:
         llm = LM_NAME[args.lm_layer_model] if args.lm_layer_model in LM_NAME else args.lm_layer_model
         llm = AutoModelWithLMHead.from_pretrained(llm)

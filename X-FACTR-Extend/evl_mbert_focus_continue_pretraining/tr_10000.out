@@ -1,0 +1,99 @@
+python scripts/probe.py --probe mlamaf --model mbert_focus_tr_10000 --lang tr --pred_dir ./evl_mbert_focus_continue_pretraining//tr_10000/  &> ./evl_mbert_focus_continue_pretraining//tr_10000.out
+[dynet] random seed: 3683357687
+[dynet] allocating memory: 512MB
+[dynet] memory allocation done.
+load data
+load model
+pid P19	acc 0.0000/0.0000	len_acc 0.3009/0.2301	prompt [X] [Y.Loc] doğdu .
+pid P19	#fact 113	#notrans 886	#notexist 1	#multiword 77,False	#singleword 36,False	oracle 0.0000	time 1.6
+pid P20	acc 0.0000/0.0000	len_acc 0.0719/0.3856	prompt [X] [Y.Loc] öldü .
+pid P20	#fact 153	#notrans 847	#notexist 0	#multiword 84,False	#singleword 69,False	oracle 0.0000	time 1.5
+pid P279	acc 0.0000/0.0000	len_acc 0.1318/0.2753	prompt [X] [Y.Gen] alt sınıfıdır .
+pid P279	#fact 425	#notrans 575	#notexist 0	#multiword 324,False	#singleword 101,False	oracle 0.0000	time 4.6
+pid P37	acc 0.0000/0.0034	len_acc 0.0089/0.3899	prompt [X.Gen] resmi dili [Y;be] .
+pid P37	#fact 895	#notrans 105	#notexist 0	#multiword 543,False	#singleword 352,False	oracle 0.0000	time 8.0
+pid P413	acc 0.0000/0.0000	len_acc 0.5300/0.5300	prompt [X] [Y] pozisyonunda oynar .
+pid P413	#fact 100	#notrans 898	#notexist 2	#multiword 100,False	#singleword 0,False	oracle 0.0000	time 0.8
+pid P166	acc 0.0000/0.0000	len_acc 0.0034/0.0034	prompt [X] [Y] ile ödüllendirildi .
+pid P166	#fact 293	#notrans 707	#notexist 0	#multiword 293,False	#singleword 0,False	oracle 0.0000	time 2.4
+pid P449	acc 0.0000/0.0000	len_acc 0.0884/0.1905	prompt [X] orijinal olarak [Y.Loc] yayınlandı .
+pid P449	#fact 147	#notrans 853	#notexist 0	#multiword 145,False	#singleword 2,False	oracle 0.0000	time 1.5
+pid P69	acc 0.0000/0.0000	len_acc 0.1400/0.1400	prompt [X] [Y] Üniversitesi'nde eğitim aldı .
+pid P69	#fact 50	#notrans 950	#notexist 0	#multiword 50,False	#singleword 0,False	oracle 0.0000	time 0.5
+pid P47	acc 0.0011/0.0011	len_acc 0.3103/0.3103	prompt [X] [Y] ile sınır paylaşır .
+pid P47	#fact 883	#notrans 117	#notexist 0	#multiword 638,False	#singleword 245,False	oracle 0.0011	time 7.0
+pid P138	acc 0.0000/0.0000	len_acc 0.0455/0.1529	prompt [X] [Y.Gen] ismini aldı .
+pid P138	#fact 242	#notrans 758	#notexist 0	#multiword 213,False	#singleword 29,False	oracle 0.0000	time 7.5
+pid P364	acc 0.0000/0.0000	len_acc 0.0000/0.6233	prompt [X.Gen] orijinal dili [Y;be] .
+pid P364	#fact 146	#notrans 854	#notexist 0	#multiword 45,False	#singleword 101,False	oracle 0.0000	time 1.7
+pid P54	acc 0.0000/0.0000	len_acc 0.0256/0.0256	prompt [X] [Y] ile oynar .
+pid P54	#fact 117	#notrans 883	#notexist 0	#multiword 117,False	#singleword 0,False	oracle 0.0000	time 1.0
+pid P463	acc 0.0000/0.0000	len_acc 0.0678/0.3318	prompt [X] [Y.Gen] bir üyesidir .
+pid P463	#fact 428	#notrans 572	#notexist 0	#multiword 376,False	#singleword 52,False	oracle 0.0000	time 4.2
+pid P101	acc 0.0000/0.0000	len_acc 0.3244/0.3244	prompt [X] [Y] alanında çalışır .
+pid P101	#fact 299	#notrans 701	#notexist 0	#multiword 231,False	#singleword 68,False	oracle 0.0000	time 2.4
+pid P1923	acc 0.0000/0.0000	len_acc 0.0013/0.0013	prompt [Y] [X.Acc] katıldı .
+pid P1923	#fact 755	#notrans 245	#notexist 0	#multiword 755,False	#singleword 0,False	oracle 0.0000	time 6.5
+pid P106	acc 0.0000/0.0000	len_acc 0.0410/0.4667	prompt [X] meslek olarak [Y;be] .
+pid P106	#fact 195	#notrans 805	#notexist 0	#multiword 88,False	#singleword 107,False	oracle 0.0000	time 1.6
+pid P527	acc 0.0000/0.0000	len_acc 0.0452/0.2036	prompt [X] [Y.Abl] oluşur .
+pid P527	#fact 442	#notrans 557	#notexist 1	#multiword 355,False	#singleword 87,False	oracle 0.0000	time 5.7
+pid P102	acc 0.0000/0.0000	len_acc 0.1143/0.1143	prompt [X] [Y] partisinin üyesidir .
+pid P102	#fact 105	#notrans 895	#notexist 0	#multiword 105,False	#singleword 0,False	oracle 0.0000	time 0.9
+pid P530	acc 0.0010/0.0010	len_acc 0.3540/0.3540	prompt [X] [Y] ile diplomatik ilişkiler sürdürmektedir .
+pid P530	#fact 1000	#notrans 0	#notexist 0	#multiword 276,False	#singleword 724,False	oracle 0.0010	time 7.9
+pid P176	acc 0.0000/0.0000	len_acc 0.1367/0.1367	prompt [X] [Y] tarafından üretilir .
+pid P176	#fact 300	#notrans 700	#notexist 0	#multiword 219,False	#singleword 81,False	oracle 0.0000	time 2.4
+pid P27	acc 0.0000/0.0000	len_acc 0.1867/0.1867	prompt [X] bir [Y] vatandaşıdır .
+pid P27	#fact 241	#notrans 759	#notexist 0	#multiword 159,False	#singleword 82,False	oracle 0.0000	time 2.0
+pid P407	acc 0.0000/0.0000	len_acc 0.1266/0.3201	prompt [X] [Y.Loc] yazıldı .
+pid P407	#fact 403	#notrans 597	#notexist 0	#multiword 147,False	#singleword 256,False	oracle 0.0000	time 3.9
+pid P30	acc 0.0000/0.0000	len_acc 0.3179/0.3272	prompt [X] [Y.Loc] bulunur .
+pid P30	#fact 324	#notrans 676	#notexist 0	#multiword 127,False	#singleword 197,False	oracle 0.0000	time 3.0
+pid P178	acc 0.0111/0.0111	len_acc 0.2583/0.2583	prompt [X] [Y] tarafından geliştirildi .
+pid P178	#fact 271	#notrans 729	#notexist 0	#multiword 158,False	#singleword 113,False	oracle 0.0111	time 2.2
+pid P1376	acc 0.0000/0.0000	len_acc 0.1235/0.1847	prompt [X] [Y.Gen] başkentidir .
+pid P1376	#fact 769	#notrans 231	#notexist 0	#multiword 687,False	#singleword 82,False	oracle 0.0000	time 8.4
+pid P131	acc 0.0000/0.0000	len_acc 0.1995/0.2494	prompt [X] [Y.Loc] bulunur .
+pid P131	#fact 441	#notrans 559	#notexist 0	#multiword 270,False	#singleword 171,False	oracle 0.0000	time 4.5
+pid P1412	acc 0.0000/0.0000	len_acc 0.3979/0.3979	prompt [X] [Y] dilinde iletişim kurardı .
+pid P1412	#fact 377	#notrans 622	#notexist 1	#multiword 136,False	#singleword 241,False	oracle 0.0000	time 3.1
+pid P108	acc 0.0000/0.0000	len_acc 0.1500/0.1500	prompt [X] [Y] için çalışır .
+pid P108	#fact 140	#notrans 860	#notexist 0	#multiword 132,False	#singleword 8,False	oracle 0.0000	time 1.1
+pid P136	acc 0.0000/0.0000	len_acc 0.2609/0.2609	prompt [X] [Y] müzik yapar .
+pid P136	#fact 253	#notrans 747	#notexist 0	#multiword 204,False	#singleword 49,False	oracle 0.0000	time 2.0
+pid P17	acc 0.0000/0.0000	len_acc 0.2253/0.3347	prompt [X] [Y.Loc] bulunur .
+pid P17	#fact 475	#notrans 524	#notexist 1	#multiword 178,False	#singleword 297,False	oracle 0.0000	time 4.4
+pid P39	acc 0.0000/0.0000	len_acc 0.1714/0.1714	prompt [X] [Y] pozisyonuna sahiptir .
+pid P39	#fact 315	#notrans 685	#notexist 0	#multiword 287,False	#singleword 28,False	oracle 0.0000	time 2.6
+pid P264	acc 0.0000/0.0000	len_acc 0.0321/0.0321	prompt [X] [Y] müzik şirketi tarafından temsil edilir .
+pid P264	#fact 156	#notrans 844	#notexist 0	#multiword 155,False	#singleword 1,False	oracle 0.0000	time 1.3
+pid P276	acc 0.0000/0.0000	len_acc 0.1211/0.2500	prompt [X] [Y.Loc] bulunur .
+pid P276	#fact 256	#notrans 744	#notexist 0	#multiword 175,False	#singleword 81,False	oracle 0.0000	time 2.8
+pid P937	acc 0.0000/0.0000	len_acc 0.3966/0.2911	prompt [X] [Y.Loc] çalışırdı .
+pid P937	#fact 237	#notrans 763	#notexist 0	#multiword 97,False	#singleword 140,False	oracle 0.0000	time 2.3
+pid P140	acc 0.0000/0.0000	len_acc 0.2135/0.2135	prompt [X] [Y] dinine mensuptur .
+pid P140	#fact 267	#notrans 733	#notexist 0	#multiword 208,False	#singleword 59,False	oracle 0.0000	time 2.2
+pid P1303	acc 0.0000/0.0000	len_acc 0.2588/0.2588	prompt [X] [Y] çalar .
+pid P1303	#fact 170	#notrans 830	#notexist 0	#multiword 146,False	#singleword 24,False	oracle 0.0000	time 1.4
+pid P127	acc 0.0000/0.0000	len_acc 0.0806/0.1089	prompt [X] [Y.Dat] aittir .
+pid P127	#fact 248	#notrans 752	#notexist 0	#multiword 211,False	#singleword 37,False	oracle 0.0000	time 2.8
+pid P103	acc 0.0000/0.0000	len_acc 0.4103/0.2850	prompt [X.Gen] anadili [Y;be] .
+pid P103	#fact 407	#notrans 592	#notexist 1	#multiword 74,False	#singleword 333,False	oracle 0.0000	time 4.0
+pid P190	acc 0.0010/0.0010	len_acc 0.1992/0.1992	prompt [X] ve [Y] ikiz şehirlerdir .
+pid P190	#fact 964	#notrans 36	#notexist 0	#multiword 655,False	#singleword 309,False	oracle 0.0010	time 7.6
+pid P1001	acc 0.0000/0.0000	len_acc 0.0913/0.3118	prompt [X] [Y.Loc] bir yasal şarttır .
+pid P1001	#fact 263	#notrans 737	#notexist 0	#multiword 169,False	#singleword 94,False	oracle 0.0000	time 2.8
+pid P31	acc 0.0000/0.0000	len_acc 0.0465/0.2713	prompt [X] bir [Y;be] .
+pid P31	#fact 258	#notrans 742	#notexist 0	#multiword 224,False	#singleword 34,False	oracle 0.0000	time 2.0
+pid P495	acc 0.0000/0.0000	len_acc 0.0980/0.1647	prompt [X] [Y.Loc] yaratıldı .
+pid P495	#fact 255	#notrans 745	#notexist 0	#multiword 218,False	#singleword 37,False	oracle 0.0000	time 2.4
+pid P159	acc 0.0000/0.0000	len_acc 0.0791/0.2878	prompt [X.Gen] karargahı [Y.Loc] .
+pid P159	#fact 278	#notrans 722	#notexist 0	#multiword 190,False	#singleword 88,False	oracle 0.0000	time 3.4
+pid P36	acc 0.0000/0.0000	len_acc 0.0549/0.1592	prompt [X.Gen] başkenti [Y;be] .
+pid P36	#fact 710	#notrans 289	#notexist 1	#multiword 621,False	#singleword 89,False	oracle 0.0000	time 7.1
+pid P740	acc 0.0000/0.0000	len_acc 0.3265/0.3020	prompt [X] [Y.Loc] kuruldu .
+pid P740	#fact 245	#notrans 755	#notexist 0	#multiword 181,False	#singleword 64,False	oracle 0.0000	time 2.5
+pid P361	acc 0.0000/0.0000	len_acc 0.0952/0.1667	prompt [X] [Y.Gen] parçasıdır .
+pid P361	#fact 336	#notrans 664	#notexist 0	#multiword 288,False	#singleword 48,False	oracle 0.0000	time 3.8
+acc per fact 6/16147=0.0004	acc per relation 0.00030956430284130256	avg iter 1.0	num_max_mask 1971

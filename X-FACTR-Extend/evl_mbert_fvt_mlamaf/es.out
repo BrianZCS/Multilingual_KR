@@ -1,0 +1,100 @@
+python scripts/probe_fvt.py --probe mlamaf --model mbert_base --lang es --pred_dir ./evl_mbert_fvt_mlamaf//es/  &> ./evl_mbert_fvt_mlamaf//es.out
+[dynet] random seed: 2690663358
+[dynet] allocating memory: 512MB
+[dynet] memory allocation done.
+load data
+BertTokenizer , Vocab Size 31002
+19538 tokens are not shared
+pid P19	acc 0.0286/0.0286	len_acc 0.2632/0.2632	prompt [X] nació en [Y] .
+pid P19	#fact 908	#notrans 38	#notexist 54	#multiword 653,False	#singleword 255,False	oracle 0.0286	time 8.5
+pid P20	acc 0.0087/0.0087	len_acc 0.3500/0.3500	prompt [X] murió en [Y] .
+pid P20	#fact 920	#notrans 25	#notexist 55	#multiword 544,False	#singleword 376,False	oracle 0.0087	time 8.5
+pid P279	acc 0.0732/0.0732	len_acc 0.2669/0.2669	prompt [X] es una subclase de [Y] .
+pid P279	#fact 738	#notrans 252	#notexist 10	#multiword 498,False	#singleword 240,False	oracle 0.0732	time 7.0
+pid P37	acc 0.1085/0.1085	len_acc 0.4114/0.4114	prompt La lengua oficial de [X] es [Y] .
+pid P37	#fact 931	#notrans 50	#notexist 19	#multiword 409,False	#singleword 522,False	oracle 0.1085	time 8.7
+pid P413	acc 0.0000/0.0000	len_acc 0.4311/0.4311	prompt [X] juega en la posición de [Y] .
+pid P413	#fact 921	#notrans 14	#notexist 65	#multiword 710,False	#singleword 211,False	oracle 0.0000	time 8.4
+pid P166	acc 0.0000/0.0000	len_acc 0.0299/0.0299	prompt [X] recibió [DEF;Y] [Y] .
+pid P166	#fact 869	#notrans 108	#notexist 23	#multiword 869,False	#singleword 0,False	oracle 0.0000	time 8.2
+pid P449	acc 0.0026/0.0026	len_acc 0.2648/0.2648	prompt [X] fue emitido originalmente en [Y] .
+pid P449	#fact 389	#notrans 589	#notexist 22	#multiword 289,False	#singleword 100,False	oracle 0.0026	time 3.9
+pid P69	acc 0.0000/0.0000	len_acc 0.0000/0.0000	prompt [X] fue educado en la Universidad de [Y] .
+pid P69	#fact 868	#notrans 100	#notexist 32	#multiword 868,False	#singleword 0,False	oracle 0.0000	time 8.7
+pid P47	acc 0.0163/0.0163	len_acc 0.3662/0.3662	prompt [X] comparte una frontera con [Y] .
+pid P47	#fact 983	#notrans 9	#notexist 8	#multiword 598,False	#singleword 385,False	oracle 0.0163	time 9.2
+pid P138	acc 0.0297/0.0297	len_acc 0.1099/0.1099	prompt [X] recibiò su nombre de [Y] .
+pid P138	#fact 573	#notrans 413	#notexist 14	#multiword 523,False	#singleword 50,False	oracle 0.0297	time 6.2
+pid P364	acc 0.3175/0.3175	len_acc 0.8607/0.8607	prompt El idioma original de [X] es [Y] .
+pid P364	#fact 359	#notrans 630	#notexist 11	#multiword 34,False	#singleword 325,False	oracle 0.3175	time 4.8
+pid P54	acc 0.0000/0.0000	len_acc 0.0078/0.0078	prompt [X] juega con [Y] .
+pid P54	#fact 903	#notrans 50	#notexist 47	#multiword 903,False	#singleword 0,False	oracle 0.0000	time 9.1
+pid P463	acc 0.0000/0.0000	len_acc 0.1760/0.1760	prompt [X] es [ART;X-Gender] [miembro;X-Gender=MASC|miembra;X-Gender=FEM] de [Y] .
+pid P463	#fact 932	#notrans 51	#notexist 17	#multiword 886,False	#singleword 46,False	oracle 0.0000	time 8.9
+pid P101	acc 0.0000/0.0000	len_acc 0.2322/0.2322	prompt [X] trabaja en [Y] .
+pid P101	#fact 900	#notrans 43	#notexist 57	#multiword 740,False	#singleword 160,False	oracle 0.0000	time 8.6
+pid P1923	acc 0.0000/0.0000	len_acc 0.0012/0.0012	prompt [Y] participo en [X] .
+pid P1923	#fact 830	#notrans 93	#notexist 77	#multiword 829,False	#singleword 1,False	oracle 0.0000	time 8.0
+pid P106	acc 0.1146/0.1146	len_acc 0.6667/0.6667	prompt [X] es [ART;Y-Gender] [Y] de profesiòn .
+pid P106	#fact 942	#notrans 14	#notexist 44	#multiword 258,False	#singleword 684,False	oracle 0.1146	time 9.0
+pid P527	acc 0.0071/0.0071	len_acc 0.1740/0.1740	prompt [X] consiste de [Y] .
+pid P527	#fact 845	#notrans 126	#notexist 29	#multiword 711,False	#singleword 134,False	oracle 0.0071	time 7.8
+pid P102	acc 0.0000/0.0000	len_acc 0.0000/0.0000	prompt [X] es [miembro;X-Gender=MASC|miembra;X-Gender=FEM] del partido [Y] .
+pid P102	#fact 844	#notrans 110	#notexist 46	#multiword 844,False	#singleword 0,False	oracle 0.0000	time 8.3
+pid P530	acc 0.0160/0.0160	len_acc 0.7150/0.7150	prompt [X] mantiene relaciones diplomaticas con [Y] .
+pid P530	#fact 1000	#notrans 0	#notexist 0	#multiword 212,False	#singleword 788,False	oracle 0.0160	time 9.3
+pid P176	acc 0.2553/0.2553	len_acc 0.4004/0.4004	prompt [X] es producido por [Y] .
+pid P176	#fact 517	#notrans 476	#notexist 7	#multiword 466,False	#singleword 51,False	oracle 0.2553	time 4.9
+pid P27	acc 0.0749/0.0749	len_acc 0.4332/0.4332	prompt [X] es [ciudadano;X-Gender=MASC|ciudadana;X-Gender=FEM] de [Y] .
+pid P27	#fact 935	#notrans 2	#notexist 63	#multiword 543,False	#singleword 392,False	oracle 0.0749	time 8.8
+pid P407	acc 0.0331/0.0331	len_acc 0.5942/0.5942	prompt [X] fue escrito en [Y] .
+pid P407	#fact 695	#notrans 223	#notexist 82	#multiword 98,False	#singleword 597,False	oracle 0.0331	time 6.6
+pid P30	acc 0.0090/0.0090	len_acc 0.5724/0.5724	prompt [X] està [localizado;X-Gender=MASC|localizada;X-Gender=FEM] en [Y] .
+pid P30	#fact 442	#notrans 556	#notexist 2	#multiword 126,False	#singleword 316,False	oracle 0.0090	time 4.2
+pid P178	acc 0.0547/0.0547	len_acc 0.1990/0.1990	prompt [X] està desarrollado en [Y] .
+pid P178	#fact 603	#notrans 370	#notexist 27	#multiword 486,False	#singleword 117,False	oracle 0.0547	time 5.7
+pid P1376	acc 0.0423/0.0423	len_acc 0.2343/0.2343	prompt [X] es la capital de [Y] .
+pid P1376	#fact 875	#notrans 109	#notexist 16	#multiword 735,False	#singleword 140,False	oracle 0.0423	time 8.0
+pid P131	acc 0.0586/0.0586	len_acc 0.3149/0.3149	prompt [X] està [localizado;X-Gender=MASC|localizada;X-Gender=FEM] en [Y] .
+pid P131	#fact 597	#notrans 391	#notexist 12	#multiword 384,False	#singleword 213,False	oracle 0.0586	time 5.7
+pid P1412	acc 0.0000/0.0000	len_acc 0.6251/0.6251	prompt [X] hablaba [Y] .
+pid P1412	#fact 947	#notrans 0	#notexist 53	#multiword 153,False	#singleword 794,False	oracle 0.0000	time 8.7
+pid P108	acc 0.0000/0.0000	len_acc 0.0703/0.0703	prompt [X] trabaja para [Y] .
+pid P108	#fact 911	#notrans 52	#notexist 37	#multiword 861,False	#singleword 50,False	oracle 0.0000	time 8.6
+pid P136	acc 0.0603/0.0603	len_acc 0.3196/0.3196	prompt [X] [toca;X-Number=SG|tocan;X-Number=PL] musica de [Y] .
+pid P136	#fact 779	#notrans 186	#notexist 35	#multiword 540,False	#singleword 239,False	oracle 0.0603	time 7.3
+pid P17	acc 0.0908/0.0908	len_acc 0.4455/0.4455	prompt [X] està [localizado;X-Gender=MASC|localizada;X-Gender=FEM] en [Y] .
+pid P17	#fact 606	#notrans 376	#notexist 18	#multiword 236,False	#singleword 370,False	oracle 0.0908	time 5.9
+pid P39	acc 0.0000/0.0000	len_acc 0.1735/0.1735	prompt [X] tiene la posiciòn de [Y] .
+pid P39	#fact 876	#notrans 87	#notexist 37	#multiword 634,False	#singleword 242,False	oracle 0.0000	time 8.5
+pid P264	acc 0.0000/0.0000	len_acc 0.0883/0.0883	prompt [X] [està;X-Number=SG|estan;X-Number=PL] [representado;X-Gender=MASC|representada;X-Gender=FEM|representados;X-Number=PL] por el sello musical [Y] .
+pid P264	#fact 906	#notrans 6	#notexist 88	#multiword 904,False	#singleword 2,False	oracle 0.0000	time 9.1
+pid P276	acc 0.1322/0.1322	len_acc 0.3068/0.3068	prompt [X] està [localizado;X-Gender=MASC|localizada;X-Gender=FEM] en [Y] .
+pid P276	#fact 590	#notrans 403	#notexist 7	#multiword 464,False	#singleword 126,False	oracle 0.1322	time 5.8
+pid P937	acc 0.0924/0.0924	len_acc 0.4823/0.4823	prompt [X] trabajaba en [Y] .
+pid P937	#fact 931	#notrans 8	#notexist 61	#multiword 348,False	#singleword 583,False	oracle 0.0924	time 8.8
+pid P140	acc 0.0000/0.0000	len_acc 0.1444/0.1444	prompt [X] està [afilado;X-Gender=MASC|afilada;X-Gender=FEM] con la religiòn [Y] .
+pid P140	#fact 838	#notrans 111	#notexist 51	#multiword 727,False	#singleword 111,False	oracle 0.0000	time 8.3
+pid P1303	acc 0.2044/0.2044	len_acc 0.3962/0.3962	prompt [X] [toca;X-Number=SG|tocan;X-Number=PL] [DEF;Y] [Y] .
+pid P1303	#fact 954	#notrans 6	#notexist 40	#multiword 581,False	#singleword 373,False	oracle 0.2044	time 8.7
+pid P127	acc 0.0021/0.0021	len_acc 0.1353/0.1353	prompt El [dueño;Y-Gender=MASC|dueña;Y-Gender=FEM] de [X] es [Y] .
+pid P127	#fact 473	#notrans 504	#notexist 23	#multiword 416,False	#singleword 57,False	oracle 0.0021	time 4.5
+pid P103	acc 0.3679/0.3679	len_acc 0.7653/0.7653	prompt El idioma nativo de [X] es [Y] .
+pid P103	#fact 946	#notrans 3	#notexist 51	#multiword 80,False	#singleword 866,False	oracle 0.3679	time 9.1
+pid P190	acc 0.0081/0.0081	len_acc 0.3337/0.3337	prompt [X] y [Y] son ciudades gemelas.
+pid P190	#fact 989	#notrans 9	#notexist 2	#multiword 608,False	#singleword 381,False	oracle 0.0081	time 9.1
+pid P1001	acc 0.3333/0.3333	len_acc 0.5483/0.5483	prompt [X] es un tema legal de [Y] .
+pid P1001	#fact 549	#notrans 449	#notexist 2	#multiword 323,False	#singleword 226,False	oracle 0.3333	time 5.5
+pid P31	acc 0.0686/0.0686	len_acc 0.2727/0.2727	prompt [X] es un ejemplo de [ART;Y-Gender] [Y] .
+pid P31	#fact 539	#notrans 434	#notexist 27	#multiword 384,False	#singleword 155,False	oracle 0.0686	time 5.2
+pid P495	acc 0.0017/0.0017	len_acc 0.2349/0.2349	prompt [X] fue [creado;X-Gender=MASC|creada;X-Gender=FEM] en [Y] .
+pid P495	#fact 596	#notrans 357	#notexist 47	#multiword 507,False	#singleword 89,False	oracle 0.0017	time 5.5
+pid P159	acc 0.1621/0.1621	len_acc 0.4082/0.4082	prompt La sede de [X] està en [Y] .
+pid P159	#fact 512	#notrans 474	#notexist 14	#multiword 314,False	#singleword 198,False	oracle 0.1621	time 5.0
+pid P36	acc 0.1310/0.1310	len_acc 0.3396/0.3396	prompt La capital de [X] es [Y] .
+pid P36	#fact 901	#notrans 84	#notexist 15	#multiword 773,False	#singleword 128,False	oracle 0.1310	time 8.5
+pid P740	acc 0.0012/0.0012	len_acc 0.3329/0.3329	prompt [X] fue [fundado;X-Gender=MASC|fundada;X-Gender=FEM] en [Y] .
+pid P740	#fact 808	#notrans 156	#notexist 36	#multiword 530,False	#singleword 278,False	oracle 0.0012	time 7.6
+pid P361	acc 0.0114/0.0114	len_acc 0.1759/0.1759	prompt [X] es parte de [Y] .
+pid P361	#fact 614	#notrans 360	#notexist 26	#multiword 548,False	#singleword 66,False	oracle 0.0114	time 5.8
+acc per fact 2049/35584=0.0576	acc per relation 0.06344084394789629	avg iter 1.0	num_max_mask 3003

@@ -1,0 +1,100 @@
+python scripts/probe_fvt.py --probe mlamaf --model mbert_base --lang en --pred_dir ./evl_mbert_fvt_mlamaf//en/  &> ./evl_mbert_fvt_mlamaf//en.out
+[dynet] random seed: 1065919870
+[dynet] allocating memory: 512MB
+[dynet] memory allocation done.
+load data
+BertTokenizer , Vocab Size 28996
+9732 tokens are not shared
+pid P19	acc 0.0100/0.0100	len_acc 0.1160/0.1160	prompt [X] was born in [Y] .
+pid P19	#fact 1000	#notrans 0	#notexist 0	#multiword 522,False	#singleword 478,False	oracle 0.0100	time 41.4
+pid P20	acc 0.0000/0.0000	len_acc 0.0380/0.0380	prompt [X] died in [Y] .
+pid P20	#fact 1000	#notrans 0	#notexist 0	#multiword 411,False	#singleword 589,False	oracle 0.0000	time 10.1
+pid P279	acc 0.0871/0.0871	len_acc 0.2843/0.2843	prompt [X] is a subclass of [Y] .
+pid P279	#fact 999	#notrans 1	#notexist 0	#multiword 626,False	#singleword 373,False	oracle 0.0871	time 9.5
+pid P37	acc 0.2650/0.2650	len_acc 0.6420/0.6420	prompt The official language of [X] is [Y] .
+pid P37	#fact 1000	#notrans 0	#notexist 0	#multiword 197,False	#singleword 803,False	oracle 0.2650	time 10.3
+pid P413	acc 0.0000/0.0000	len_acc 0.2610/0.2610	prompt [X] plays in [Y] position .
+pid P413	#fact 1000	#notrans 0	#notexist 0	#multiword 265,False	#singleword 735,False	oracle 0.0000	time 9.2
+pid P166	acc 0.0000/0.0000	len_acc 0.0500/0.0500	prompt [X] was awarded the [Y] .
+pid P166	#fact 1000	#notrans 0	#notexist 0	#multiword 999,False	#singleword 1,False	oracle 0.0000	time 12.3
+pid P449	acc 0.0691/0.0691	len_acc 0.2723/0.2723	prompt [X] was originally aired on [Y] .
+pid P449	#fact 999	#notrans 1	#notexist 0	#multiword 741,False	#singleword 258,False	oracle 0.0691	time 9.9
+pid P69	acc 0.0000/0.0000	len_acc 0.0533/0.0533	prompt [X] was educated at the University of [Y] .
+pid P69	#fact 994	#notrans 5	#notexist 1	#multiword 991,False	#singleword 3,False	oracle 0.0000	time 10.5
+pid P47	acc 0.0030/0.0030	len_acc 0.4330/0.4330	prompt [X] shares border with [Y] .
+pid P47	#fact 1000	#notrans 0	#notexist 0	#multiword 457,False	#singleword 543,False	oracle 0.0030	time 10.3
+pid P138	acc 0.1420/0.1420	len_acc 0.2780/0.2780	prompt [X] is named after [Y] .
+pid P138	#fact 1000	#notrans 0	#notexist 0	#multiword 877,False	#singleword 123,False	oracle 0.1420	time 10.7
+pid P364	acc 0.3079/0.3079	len_acc 0.8907/0.8907	prompt The original language of [X] is [Y] .
+pid P364	#fact 997	#notrans 1	#notexist 2	#multiword 32,False	#singleword 965,False	oracle 0.3079	time 9.6
+pid P54	acc 0.0000/0.0000	len_acc 0.1041/0.1041	prompt [X] plays with [Y] .
+pid P54	#fact 999	#notrans 1	#notexist 0	#multiword 996,False	#singleword 3,False	oracle 0.0000	time 9.1
+pid P463	acc 0.0070/0.0070	len_acc 0.1900/0.1900	prompt [X] is a member of [Y] .
+pid P463	#fact 1000	#notrans 0	#notexist 0	#multiword 954,False	#singleword 46,False	oracle 0.0070	time 9.2
+pid P101	acc 0.0180/0.0180	len_acc 0.1732/0.1732	prompt [X] works in the field of [Y] .
+pid P101	#fact 999	#notrans 1	#notexist 0	#multiword 753,False	#singleword 246,False	oracle 0.0180	time 9.5
+pid P1923	acc 0.0000/0.0000	len_acc 0.0050/0.0050	prompt [Y] participated in the [X] .
+pid P1923	#fact 995	#notrans 5	#notexist 0	#multiword 994,False	#singleword 1,False	oracle 0.0000	time 9.3
+pid P106	acc 0.0191/0.0191	len_acc 0.7309/0.7309	prompt [X] is a [Y] by profession .
+pid P106	#fact 996	#notrans 4	#notexist 0	#multiword 151,False	#singleword 845,False	oracle 0.0191	time 10.1
+pid P527	acc 0.0150/0.0150	len_acc 0.2543/0.2543	prompt [X] consists of [Y] .
+pid P527	#fact 999	#notrans 0	#notexist 1	#multiword 814,False	#singleword 185,False	oracle 0.0150	time 9.1
+pid P102	acc 0.0000/0.0000	len_acc 0.0612/0.0612	prompt [X] is a member of the [Y] political party .
+pid P102	#fact 997	#notrans 3	#notexist 0	#multiword 996,False	#singleword 1,False	oracle 0.0000	time 10.0
+pid P530	acc 0.0030/0.0030	len_acc 0.4350/0.4350	prompt [X] maintains diplomatic relations with [Y] .
+pid P530	#fact 1000	#notrans 0	#notexist 0	#multiword 160,False	#singleword 840,False	oracle 0.0030	time 9.1
+pid P176	acc 0.2830/0.2830	len_acc 0.4010/0.4010	prompt [X] is produced by [Y] .
+pid P176	#fact 1000	#notrans 0	#notexist 0	#multiword 741,False	#singleword 259,False	oracle 0.2830	time 10.2
+pid P27	acc 0.0000/0.0000	len_acc 0.3160/0.3160	prompt [X] is [Y] citizen .
+pid P27	#fact 1000	#notrans 0	#notexist 0	#multiword 538,False	#singleword 462,False	oracle 0.0000	time 9.3
+pid P407	acc 0.0990/0.0990	len_acc 0.2720/0.2720	prompt [X] was written in [Y] .
+pid P407	#fact 1000	#notrans 0	#notexist 0	#multiword 31,False	#singleword 969,False	oracle 0.0990	time 9.3
+pid P30	acc 0.0040/0.0040	len_acc 0.1070/0.1070	prompt [X] is located in [Y] .
+pid P30	#fact 1000	#notrans 0	#notexist 0	#multiword 50,False	#singleword 950,False	oracle 0.0040	time 9.1
+pid P178	acc 0.1043/0.1043	len_acc 0.2818/0.2818	prompt [X] is developed by [Y] .
+pid P178	#fact 997	#notrans 3	#notexist 0	#multiword 828,False	#singleword 169,False	oracle 0.1043	time 9.4
+pid P1376	acc 0.0811/0.0811	len_acc 0.2402/0.2402	prompt [X] is the capital of [Y] .
+pid P1376	#fact 999	#notrans 1	#notexist 0	#multiword 791,False	#singleword 208,False	oracle 0.0811	time 9.1
+pid P131	acc 0.0480/0.0480	len_acc 0.2230/0.2230	prompt [X] is located in [Y] .
+pid P131	#fact 1000	#notrans 0	#notexist 0	#multiword 615,False	#singleword 385,False	oracle 0.0480	time 9.2
+pid P1412	acc 0.0771/0.0771	len_acc 0.2112/0.2112	prompt [X] used to communicate in [Y] .
+pid P1412	#fact 999	#notrans 0	#notexist 1	#multiword 25,False	#singleword 974,False	oracle 0.0771	time 10.0
+pid P108	acc 0.0000/0.0000	len_acc 0.0533/0.0533	prompt [X] works for [Y] .
+pid P108	#fact 995	#notrans 5	#notexist 0	#multiword 971,False	#singleword 24,False	oracle 0.0000	time 10.9
+pid P136	acc 0.0050/0.0050	len_acc 0.1633/0.1633	prompt [X] plays [Y] music .
+pid P136	#fact 998	#notrans 2	#notexist 0	#multiword 817,False	#singleword 181,False	oracle 0.0050	time 10.8
+pid P17	acc 0.0450/0.0450	len_acc 0.1972/0.1972	prompt [X] is located in [Y] .
+pid P17	#fact 999	#notrans 0	#notexist 1	#multiword 272,False	#singleword 727,False	oracle 0.0450	time 9.6
+pid P39	acc 0.0030/0.0030	len_acc 0.2000/0.2000	prompt [X] has the position of [Y] .
+pid P39	#fact 1000	#notrans 0	#notexist 0	#multiword 716,False	#singleword 284,False	oracle 0.0030	time 9.7
+pid P264	acc 0.0000/0.0000	len_acc 0.1630/0.1630	prompt [X] is represented by music label [Y] .
+pid P264	#fact 1000	#notrans 0	#notexist 0	#multiword 928,False	#singleword 72,False	oracle 0.0000	time 9.5
+pid P276	acc 0.1600/0.1600	len_acc 0.3280/0.3280	prompt [X] is located in [Y] .
+pid P276	#fact 1000	#notrans 0	#notexist 0	#multiword 738,False	#singleword 262,False	oracle 0.1600	time 9.3
+pid P937	acc 0.0920/0.0920	len_acc 0.3810/0.3810	prompt [X] used to work in [Y] .
+pid P937	#fact 1000	#notrans 0	#notexist 0	#multiword 211,False	#singleword 789,False	oracle 0.0920	time 9.4
+pid P140	acc 0.0000/0.0000	len_acc 0.6249/0.6249	prompt [X] is affiliated with the [Y] religion .
+pid P140	#fact 997	#notrans 2	#notexist 1	#multiword 825,False	#singleword 172,False	oracle 0.0000	time 9.6
+pid P1303	acc 0.0010/0.0010	len_acc 0.0681/0.0681	prompt [X] plays [Y] .
+pid P1303	#fact 999	#notrans 1	#notexist 0	#multiword 269,False	#singleword 730,False	oracle 0.0010	time 8.9
+pid P127	acc 0.0180/0.0180	len_acc 0.1960/0.1960	prompt [X] is owned by [Y] .
+pid P127	#fact 1000	#notrans 0	#notexist 0	#multiword 878,False	#singleword 122,False	oracle 0.0180	time 9.4
+pid P103	acc 0.6370/0.6370	len_acc 0.9380/0.9380	prompt The native language of [X] is [Y] .
+pid P103	#fact 1000	#notrans 0	#notexist 0	#multiword 19,False	#singleword 981,False	oracle 0.6370	time 9.6
+pid P190	acc 0.0130/0.0130	len_acc 0.4940/0.4940	prompt [X] and [Y] are twin cities .
+pid P190	#fact 998	#notrans 2	#notexist 0	#multiword 350,False	#singleword 648,False	oracle 0.0130	time 9.0
+pid P1001	acc 0.5195/0.5195	len_acc 0.5956/0.5956	prompt [X] is a legal term in [Y] .
+pid P1001	#fact 999	#notrans 1	#notexist 0	#multiword 477,False	#singleword 522,False	oracle 0.5195	time 10.0
+pid P31	acc 0.1060/0.1060	len_acc 0.3690/0.3690	prompt [X] is a [Y] .
+pid P31	#fact 1000	#notrans 0	#notexist 0	#multiword 663,False	#singleword 337,False	oracle 0.1060	time 9.2
+pid P495	acc 0.0030/0.0030	len_acc 0.1330/0.1330	prompt [X] was created in [Y] .
+pid P495	#fact 1000	#notrans 0	#notexist 0	#multiword 773,False	#singleword 227,False	oracle 0.0030	time 9.5
+pid P159	acc 0.1869/0.1869	len_acc 0.3788/0.3788	prompt The headquarter of [X] is in [Y] .
+pid P159	#fact 990	#notrans 10	#notexist 0	#multiword 459,False	#singleword 531,False	oracle 0.1869	time 9.7
+pid P36	acc 0.1874/0.1874	len_acc 0.3778/0.3778	prompt The capital of [X] is [Y] .
+pid P36	#fact 998	#notrans 1	#notexist 1	#multiword 741,False	#singleword 257,False	oracle 0.1874	time 9.2
+pid P740	acc 0.0010/0.0010	len_acc 0.0815/0.0815	prompt [X] was founded in [Y] .
+pid P740	#fact 994	#notrans 5	#notexist 1	#multiword 390,False	#singleword 604,False	oracle 0.0010	time 9.2
+pid P361	acc 0.0170/0.0170	len_acc 0.2370/0.2370	prompt [X] is part of [Y] .
+pid P361	#fact 1000	#notrans 0	#notexist 0	#multiword 895,False	#singleword 105,False	oracle 0.0170	time 9.4
+acc per fact 3633/45936=0.0791	acc per relation 0.07907633636941522	avg iter 1.0	num_max_mask 2225

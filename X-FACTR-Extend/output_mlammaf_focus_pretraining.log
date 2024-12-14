@@ -1,0 +1,13 @@
+nohup: ignoring input
+========== Language: zh, Size: 1000, Model: mbert_focus_zh_1000, Probe: mlamaf, Args:  ==========
+acc per fact 1042/21669=0.0481	acc per relation 0.05117624463290188	avg iter 1.0	num_max_mask 4235
+========== Language: zh, Size: 5000, Model: mbert_focus_zh_5000, Probe: mlamaf, Args:  ==========
+acc per fact 1020/21669=0.0471	acc per relation 0.047107117897728944	avg iter 1.0	num_max_mask 4235
+========== Language: zh, Size: 10000, Model: mbert_focus_zh_10000, Probe: mlamaf, Args:  ==========
+acc per fact 976/21669=0.0450	acc per relation 0.045967292583842405	avg iter 1.0	num_max_mask 4235
+========== Language: tr, Size: 1000, Model: mbert_focus_tr_1000, Probe: mlamaf, Args:  ==========
+acc per fact 25/16147=0.0015	acc per relation 0.0016318200165579115	avg iter 1.0	num_max_mask 1971
+========== Language: tr, Size: 5000, Model: mbert_focus_tr_5000, Probe: mlamaf, Args:  ==========
+acc per fact 6/16147=0.0004	acc per relation 0.0003005530506323463	avg iter 1.0	num_max_mask 1971
+========== Language: tr, Size: 10000, Model: mbert_focus_tr_10000, Probe: mlamaf, Args:  ==========
+acc per fact 6/16147=0.0004	acc per relation 0.00030956430284130256	avg iter 1.0	num_max_mask 1971

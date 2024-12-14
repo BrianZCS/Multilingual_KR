@@ -1,0 +1,118 @@
+python scripts/probe_focus.py --probe mlamaf --model mbert_base --lang zh --pred_dir ./evl_mbert_focus_mlamaf//zh/  &> ./evl_mbert_focus_mlamaf//zh.out
+2024-12-03 15:04:42.547244: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F AVX512_VNNI FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-12-03 15:04:42.717163: I tensorflow/core/util/port.cc:104] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-12-03 15:04:42.721390: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2024-12-03 15:04:42.721435: I tensorflow/compiler/xla/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2024-12-03 15:04:43.316670: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2024-12-03 15:04:43.316795: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2024-12-03 15:04:43.316813: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+[dynet] random seed: 1299482155
+[dynet] allocating memory: 512MB
+[dynet] memory allocation done.
+load data
+BertTokenizer , Vocab Size 21128
+load model
+FOCUS - INFO: Starting FOCUS initialization for target vocabulary with 21128 
+tokens...
+FOCUS - INFO: Loading fasttext *word* embeddings for language 'zh' from 
+https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.zh.300.bin.gz.
+Canonicalizing source vocab:   0%|          | 0/119547 [00:00<?, ?it/s]Canonicalizing source vocab:  16%|█▌        | 18649/119547 [00:00<00:00, 186470.17it/s]Canonicalizing source vocab:  31%|███       | 37297/119547 [00:00<00:00, 171446.80it/s]Canonicalizing source vocab:  46%|████▌     | 54522/119547 [00:00<00:00, 168696.42it/s]Canonicalizing source vocab:  60%|█████▉    | 71602/119547 [00:00<00:00, 169485.43it/s]Canonicalizing source vocab:  74%|███████▍  | 88577/119547 [00:00<00:00, 93513.40it/s] Canonicalizing source vocab:  88%|████████▊ | 105405/119547 [00:00<00:00, 109724.69it/s]                                                                                        Canonicalizing target vocab:   0%|          | 0/21128 [00:00<?, ?it/s]                                                                      Getting overlapping tokens...:   0%|          | 0/21128 [00:00<?, ?it/s]                                                                        Populating auxiliary embeddings for overlapping token...:   0%|          | 0/16779 [00:00<?, ?it/s]Populating auxiliary embeddings for overlapping token...:  45%|████▍     | 7532/16779 [00:00<00:00, 75311.81it/s]Populating auxiliary embeddings for overlapping token...:  90%|████████▉ | 15064/16779 [00:00<00:00, 73714.63it/s]                                                                                                                  Populating auxiliary embeddings for non-overlapping token...:   0%|          | 0/4349 [00:00<?, ?it/s]                                                                                                      FOCUS - SUCCESS: Copied embeddings for 16779 overlapping tokens.
+FOCUS - INFO: Initialized 293 new tokens from N(source_mean, source_std) because
+they do not have auxiliary embeddings (this is okay if it's not too many).
+FOCUS initialization...:   0%|          | 0/4056 [00:00<?, ?it/s]FOCUS initialization...:   1%|          | 33/4056 [00:00<00:12, 326.75it/s]FOCUS initialization...:   2%|▏         | 77/4056 [00:00<00:10, 390.97it/s]FOCUS initialization...:   3%|▎         | 125/4056 [00:00<00:09, 430.50it/s]FOCUS initialization...:   4%|▍         | 173/4056 [00:00<00:08, 449.25it/s]FOCUS initialization...:   5%|▌         | 222/4056 [00:00<00:08, 462.37it/s]FOCUS initialization...:   7%|▋         | 269/4056 [00:00<00:08, 464.54it/s]FOCUS initialization...:   8%|▊         | 317/4056 [00:00<00:07, 468.74it/s]FOCUS initialization...:   9%|▉         | 366/4056 [00:00<00:07, 473.18it/s]FOCUS initialization...:  10%|█         | 415/4056 [00:00<00:07, 476.35it/s]FOCUS initialization...:  11%|█▏        | 464/4056 [00:01<00:07, 478.55it/s]FOCUS initialization...:  13%|█▎        | 513/4056 [00:01<00:07, 479.79it/s]FOCUS initialization...:  14%|█▍        | 561/4056 [00:01<00:07, 469.18it/s]FOCUS initialization...:  15%|█▌        | 610/4056 [00:01<00:07, 466.34it/s]FOCUS initialization...:  16%|█▌        | 657/4056 [00:01<00:07, 465.81it/s]FOCUS initialization...:  17%|█▋        | 704/4056 [00:01<00:07, 465.70it/s]FOCUS initialization...:  19%|█▊        | 751/4056 [00:01<00:07, 458.22it/s]FOCUS initialization...:  20%|█▉        | 798/4056 [00:01<00:07, 460.58it/s]FOCUS initialization...:  21%|██        | 845/4056 [00:01<00:06, 461.21it/s]FOCUS initialization...:  22%|██▏       | 892/4056 [00:01<00:06, 462.50it/s]FOCUS initialization...:  23%|██▎       | 939/4056 [00:02<00:06, 462.49it/s]FOCUS initialization...:  24%|██▍       | 986/4056 [00:02<00:06, 464.30it/s]FOCUS initialization...:  25%|██▌       | 1033/4056 [00:02<00:06, 462.72it/s]FOCUS initialization...:  27%|██▋       | 1080/4056 [00:02<00:06, 455.97it/s]FOCUS initialization...:  28%|██▊       | 1127/4056 [00:02<00:06, 457.49it/s]FOCUS initialization...:  29%|██▉       | 1174/4056 [00:02<00:06, 458.98it/s]FOCUS initialization...:  30%|███       | 1221/4056 [00:02<00:06, 459.36it/s]FOCUS initialization...:  31%|███       | 1267/4056 [00:02<00:06, 459.39it/s]FOCUS initialization...:  32%|███▏      | 1313/4056 [00:02<00:05, 458.91it/s]FOCUS initialization...:  34%|███▎      | 1359/4056 [00:02<00:05, 454.84it/s]FOCUS initialization...:  35%|███▍      | 1405/4056 [00:03<00:05, 455.61it/s]FOCUS initialization...:  36%|███▌      | 1452/4056 [00:03<00:05, 457.09it/s]FOCUS initialization...:  37%|███▋      | 1498/4056 [00:03<00:05, 457.38it/s]FOCUS initialization...:  38%|███▊      | 1544/4056 [00:03<00:05, 452.99it/s]FOCUS initialization...:  39%|███▉      | 1590/4056 [00:03<00:05, 454.51it/s]FOCUS initialization...:  40%|████      | 1636/4056 [00:03<00:05, 455.67it/s]FOCUS initialization...:  41%|████▏     | 1682/4056 [00:03<00:05, 456.17it/s]FOCUS initialization...:  43%|████▎     | 1728/4056 [00:03<00:05, 456.50it/s]FOCUS initialization...:  44%|████▎     | 1774/4056 [00:03<00:05, 454.98it/s]FOCUS initialization...:  45%|████▍     | 1821/4056 [00:03<00:04, 456.57it/s]FOCUS initialization...:  46%|████▌     | 1867/4056 [00:04<00:04, 456.50it/s]FOCUS initialization...:  47%|████▋     | 1913/4056 [00:04<00:04, 457.53it/s]FOCUS initialization...:  48%|████▊     | 1959/4056 [00:04<00:04, 456.98it/s]FOCUS initialization...:  49%|████▉     | 2005/4056 [00:04<00:04, 452.03it/s]FOCUS initialization...:  51%|█████     | 2051/4056 [00:04<00:04, 453.97it/s]FOCUS initialization...:  52%|█████▏    | 2097/4056 [00:04<00:04, 454.77it/s]FOCUS initialization...:  53%|█████▎    | 2143/4056 [00:04<00:04, 455.87it/s]FOCUS initialization...:  54%|█████▍    | 2189/4056 [00:04<00:04, 456.32it/s]FOCUS initialization...:  55%|█████▌    | 2235/4056 [00:04<00:03, 455.64it/s]FOCUS initialization...:  56%|█████▌    | 2281/4056 [00:04<00:03, 451.39it/s]FOCUS initialization...:  57%|█████▋    | 2327/4056 [00:05<00:03, 451.94it/s]FOCUS initialization...:  59%|█████▊    | 2373/4056 [00:05<00:03, 453.19it/s]FOCUS initialization...:  60%|█████▉    | 2419/4056 [00:05<00:03, 454.67it/s]FOCUS initialization...:  61%|██████    | 2465/4056 [00:05<00:03, 448.08it/s]FOCUS initialization...:  62%|██████▏   | 2511/4056 [00:05<00:03, 450.15it/s]FOCUS initialization...:  63%|██████▎   | 2557/4056 [00:05<00:03, 451.11it/s]FOCUS initialization...:  64%|██████▍   | 2603/4056 [00:05<00:03, 451.85it/s]FOCUS initialization...:  65%|██████▌   | 2649/4056 [00:05<00:03, 453.70it/s]FOCUS initialization...:  66%|██████▋   | 2695/4056 [00:05<00:03, 453.03it/s]FOCUS initialization...:  68%|██████▊   | 2741/4056 [00:05<00:02, 454.72it/s]FOCUS initialization...:  69%|██████▊   | 2787/4056 [00:06<00:02, 453.88it/s]FOCUS initialization...:  70%|██████▉   | 2833/4056 [00:06<00:02, 452.57it/s]FOCUS initialization...:  71%|███████   | 2879/4056 [00:06<00:02, 452.50it/s]FOCUS initialization...:  72%|███████▏  | 2925/4056 [00:06<00:02, 444.70it/s]FOCUS initialization...:  73%|███████▎  | 2970/4056 [00:06<00:02, 445.84it/s]FOCUS initialization...:  74%|███████▍  | 3015/4056 [00:06<00:02, 446.87it/s]FOCUS initialization...:  75%|███████▌  | 3061/4056 [00:06<00:02, 449.07it/s]FOCUS initialization...:  77%|███████▋  | 3107/4056 [00:06<00:02, 450.25it/s]FOCUS initialization...:  78%|███████▊  | 3153/4056 [00:06<00:02, 451.46it/s]FOCUS initialization...:  79%|███████▉  | 3199/4056 [00:07<00:01, 444.02it/s]FOCUS initialization...:  80%|███████▉  | 3244/4056 [00:07<00:01, 445.56it/s]FOCUS initialization...:  81%|████████  | 3289/4056 [00:07<00:01, 446.51it/s]FOCUS initialization...:  82%|████████▏ | 3335/4056 [00:07<00:01, 447.81it/s]FOCUS initialization...:  83%|████████▎ | 3380/4056 [00:07<00:01, 433.45it/s]FOCUS initialization...:  84%|████████▍ | 3424/4056 [00:07<00:01, 412.81it/s]FOCUS initialization...:  85%|████████▌ | 3467/4056 [00:07<00:01, 417.47it/s]FOCUS initialization...:  87%|████████▋ | 3511/4056 [00:07<00:01, 422.95it/s]FOCUS initialization...:  88%|████████▊ | 3555/4056 [00:07<00:01, 427.23it/s]FOCUS initialization...:  89%|████████▊ | 3598/4056 [00:07<00:01, 424.73it/s]FOCUS initialization...:  90%|████████▉ | 3642/4056 [00:08<00:00, 427.88it/s]FOCUS initialization...:  91%|█████████ | 3686/4056 [00:08<00:00, 430.33it/s]FOCUS initialization...:  92%|█████████▏| 3730/4056 [00:08<00:00, 432.55it/s]FOCUS initialization...:  93%|█████████▎| 3774/4056 [00:08<00:00, 428.90it/s]FOCUS initialization...:  94%|█████████▍| 3817/4056 [00:08<00:00, 428.49it/s]FOCUS initialization...:  95%|█████████▌| 3860/4056 [00:08<00:00, 425.18it/s]FOCUS initialization...:  96%|█████████▋| 3904/4056 [00:08<00:00, 427.76it/s]FOCUS initialization...:  97%|█████████▋| 3948/4056 [00:08<00:00, 430.78it/s]FOCUS initialization...:  98%|█████████▊| 3992/4056 [00:08<00:00, 432.51it/s]FOCUS initialization...: 100%|█████████▉| 4036/4056 [00:08<00:00, 432.98it/s]FOCUS initialization...: 100%|██████████| 4056/4056 [00:09<00:00, 449.53it/s]FOCUS - SUCCESS: 🎯 Initialized 4056 new tokens with FOCUS 🎯
+Finish Tokenizer Transfer with FOCUS
+pid P19	acc 0.0000/0.0000	len_acc 0.0807/0.0807	prompt [X]的出生地是[Y]。
+pid P19	#fact 161	#notrans 835	#notexist 4	#multiword 161,False	#singleword 0,False	oracle 0.0000	time 2.0
+pid P20	acc 0.0100/0.0100	len_acc 0.0896/0.0896	prompt [X]的死亡地是[Y]。
+pid P20	#fact 201	#notrans 790	#notexist 9	#multiword 201,False	#singleword 0,False	oracle 0.0100	time 2.3
+pid P279	acc 0.0199/0.0199	len_acc 0.2661/0.2661	prompt [X]的父类是[Y]。
+pid P279	#fact 654	#notrans 278	#notexist 68	#multiword 622,False	#singleword 32,False	oracle 0.0199	time 6.1
+pid P37	acc 0.0483/0.0483	len_acc 0.2950/0.2950	prompt [X]的官方语言是[Y]。
+pid P37	#fact 973	#notrans 25	#notexist 2	#multiword 973,False	#singleword 0,False	oracle 0.0483	time 8.5
+pid P413	acc 0.1458/0.1458	len_acc 0.3281/0.3281	prompt [X]的场上位置是[Y]。
+pid P413	#fact 192	#notrans 807	#notexist 1	#multiword 192,False	#singleword 0,False	oracle 0.1458	time 1.7
+pid P166	acc 0.0000/0.0000	len_acc 0.0049/0.0049	prompt [X]被授予[Y]。
+pid P166	#fact 407	#notrans 569	#notexist 24	#multiword 407,False	#singleword 0,False	oracle 0.0000	time 3.6
+pid P449	acc 0.0000/0.0000	len_acc 0.1278/0.1278	prompt [X]首播于[Y]。
+pid P449	#fact 313	#notrans 597	#notexist 90	#multiword 313,False	#singleword 0,False	oracle 0.0000	time 3.2
+pid P69	acc 0.0000/0.0000	len_acc 0.1849/0.1849	prompt [X]就读于[Y]。
+pid P69	#fact 119	#notrans 870	#notexist 11	#multiword 119,False	#singleword 0,False	oracle 0.0000	time 1.4
+pid P47	acc 0.0010/0.0010	len_acc 0.2368/0.2368	prompt [X]和[Y]接壤。
+pid P47	#fact 984	#notrans 16	#notexist 0	#multiword 984,False	#singleword 0,False	oracle 0.0010	time 9.5
+pid P138	acc 0.0556/0.0556	len_acc 0.1407/0.1407	prompt [X]是以[Y]命名的。
+pid P138	#fact 540	#notrans 437	#notexist 23	#multiword 538,False	#singleword 2,False	oracle 0.0556	time 6.0
+pid P364	acc 0.0075/0.0075	len_acc 0.1530/0.1530	prompt [X]的创作语言是[Y]。
+pid P364	#fact 268	#notrans 726	#notexist 6	#multiword 268,False	#singleword 0,False	oracle 0.0075	time 2.7
+pid P54	acc 0.0000/0.0000	len_acc 0.0223/0.0223	prompt [X]的所属运动队是[Y]。
+pid P54	#fact 179	#notrans 818	#notexist 3	#multiword 179,False	#singleword 0,False	oracle 0.0000	time 1.6
+pid P463	acc 0.0019/0.0019	len_acc 0.0223/0.0223	prompt [X]是[Y]的成员。
+pid P463	#fact 539	#notrans 420	#notexist 41	#multiword 539,False	#singleword 0,False	oracle 0.0019	time 5.6
+pid P101	acc 0.0043/0.0043	len_acc 0.0642/0.0642	prompt [X]的工作领域是[Y]。
+pid P101	#fact 467	#notrans 520	#notexist 13	#multiword 466,False	#singleword 1,False	oracle 0.0043	time 4.9
+pid P1923	acc 0.0000/0.0000	len_acc 0.0058/0.0058	prompt [X]的参与队伍是[Y]。
+pid P1923	#fact 865	#notrans 115	#notexist 20	#multiword 865,False	#singleword 0,False	oracle 0.0000	time 8.1
+pid P106	acc 0.0032/0.0032	len_acc 0.2548/0.2548	prompt [X]的职业是[Y]。
+pid P106	#fact 314	#notrans 681	#notexist 5	#multiword 313,False	#singleword 1,False	oracle 0.0032	time 2.7
+pid P527	acc 0.0170/0.0170	len_acc 0.2296/0.2296	prompt [X]子类是[Y]。
+pid P527	#fact 588	#notrans 350	#notexist 62	#multiword 519,False	#singleword 69,False	oracle 0.0170	time 4.8
+pid P102	acc 0.0000/0.0000	len_acc 0.0000/0.0000	prompt [X]属于[Y]政党。
+pid P102	#fact 270	#notrans 727	#notexist 3	#multiword 270,False	#singleword 0,False	oracle 0.0000	time 2.4
+pid P530	acc 0.0020/0.0020	len_acc 0.2700/0.2700	prompt [X]与[Y]是邦交国。
+pid P530	#fact 1000	#notrans 0	#notexist 0	#multiword 1000,False	#singleword 0,False	oracle 0.0020	time 8.2
+pid P176	acc 0.1119/0.1119	len_acc 0.2612/0.2612	prompt [X]的生产商是[Y]。
+pid P176	#fact 134	#notrans 587	#notexist 279	#multiword 134,False	#singleword 0,False	oracle 0.1119	time 1.2
+pid P27	acc 0.0064/0.0064	len_acc 0.5335/0.5335	prompt [X]的国籍是[Y]。
+pid P27	#fact 313	#notrans 678	#notexist 9	#multiword 313,False	#singleword 0,False	oracle 0.0064	time 3.1
+pid P407	acc 0.0601/0.0601	len_acc 0.3449/0.3449	prompt [X]的语言是[Y]。
+pid P407	#fact 316	#notrans 656	#notexist 28	#multiword 316,False	#singleword 0,False	oracle 0.0601	time 3.3
+pid P30	acc 0.0053/0.0053	len_acc 0.2291/0.2291	prompt [X]所属大洲是[Y]。
+pid P30	#fact 943	#notrans 56	#notexist 1	#multiword 943,False	#singleword 0,False	oracle 0.0053	time 9.9
+pid P178	acc 0.0000/0.0000	len_acc 0.0763/0.0763	prompt [X]是由[Y]开发的。
+pid P178	#fact 131	#notrans 494	#notexist 375	#multiword 131,False	#singleword 0,False	oracle 0.0000	time 1.5
+pid P1376	acc 0.0044/0.0044	len_acc 0.1592/0.1592	prompt [X]是[Y]的首府。
+pid P1376	#fact 911	#notrans 88	#notexist 1	#multiword 911,False	#singleword 0,False	oracle 0.0044	time 9.0
+pid P131	acc 0.0145/0.0145	len_acc 0.2149/0.2149	prompt [X]的行政区是[Y]。
+pid P131	#fact 619	#notrans 378	#notexist 3	#multiword 619,False	#singleword 0,False	oracle 0.0145	time 6.7
+pid P1412	acc 0.0358/0.0358	len_acc 0.2617/0.2617	prompt [X]的语言是[Y]。
+pid P1412	#fact 447	#notrans 550	#notexist 3	#multiword 447,False	#singleword 0,False	oracle 0.0358	time 5.0
+pid P108	acc 0.0000/0.0000	len_acc 0.1667/0.1667	prompt [X]的雇主是[Y]。
+pid P108	#fact 240	#notrans 751	#notexist 9	#multiword 240,False	#singleword 0,False	oracle 0.0000	time 2.8
+pid P136	acc 0.0000/0.0000	len_acc 0.3183/0.3183	prompt [X]的艺术流派是[Y]。
+pid P136	#fact 377	#notrans 587	#notexist 36	#multiword 377,False	#singleword 0,False	oracle 0.0000	time 3.6
+pid P17	acc 0.0464/0.0464	len_acc 0.2285/0.2285	prompt [X]的主权国家是[Y]。
+pid P17	#fact 582	#notrans 411	#notexist 7	#multiword 582,False	#singleword 0,False	oracle 0.0464	time 6.0
+pid P39	acc 0.0056/0.0056	len_acc 0.0675/0.0675	prompt [X]的职位是[Y]。
+pid P39	#fact 533	#notrans 456	#notexist 11	#multiword 533,False	#singleword 0,False	oracle 0.0056	time 5.5
+pid P264	acc 0.0000/0.0000	len_acc 0.1354/0.1354	prompt [X]的唱片厂商是[Y]。
+pid P264	#fact 96	#notrans 817	#notexist 87	#multiword 96,False	#singleword 0,False	oracle 0.0000	time 0.9
+pid P276	acc 0.0809/0.0809	len_acc 0.2723/0.2723	prompt [X]位于[Y]。
+pid P276	#fact 470	#notrans 522	#notexist 8	#multiword 469,False	#singleword 1,False	oracle 0.0809	time 4.1
+pid P937	acc 0.0000/0.0000	len_acc 0.1036/0.1036	prompt [X]的工作地点是[Y]。
+pid P937	#fact 309	#notrans 690	#notexist 1	#multiword 309,False	#singleword 0,False	oracle 0.0000	time 2.9
+pid P140	acc 0.0185/0.0185	len_acc 0.1478/0.1478	prompt [X]的宗教信仰是[Y]。
+pid P140	#fact 433	#notrans 556	#notexist 11	#multiword 433,False	#singleword 0,False	oracle 0.0185	time 3.7
+pid P1303	acc 0.0000/0.0000	len_acc 0.3689/0.3689	prompt [X]演奏[Y]。
+pid P1303	#fact 244	#notrans 751	#notexist 5	#multiword 241,False	#singleword 3,False	oracle 0.0000	time 2.0
+pid P127	acc 0.0127/0.0127	len_acc 0.0684/0.0684	prompt [X]归[Y]所有。
+pid P127	#fact 395	#notrans 502	#notexist 103	#multiword 395,False	#singleword 0,False	oracle 0.0127	time 3.1
+pid P103	acc 0.1571/0.1571	len_acc 0.6879/0.6879	prompt [X]的母语是[Y]。
+pid P103	#fact 471	#notrans 523	#notexist 6	#multiword 471,False	#singleword 0,False	oracle 0.1571	time 3.9
+pid P190	acc 0.0040/0.0040	len_acc 0.2639/0.2639	prompt [X]与[Y]是友好城市。
+pid P190	#fact 989	#notrans 10	#notexist 1	#multiword 989,False	#singleword 0,False	oracle 0.0040	time 7.6
+pid P1001	acc 0.1955/0.1955	len_acc 0.3720/0.3720	prompt [X]的管辖范围是[Y]。
+pid P1001	#fact 629	#notrans 366	#notexist 5	#multiword 629,False	#singleword 0,False	oracle 0.1955	time 5.3
+pid P31	acc 0.0443/0.0443	len_acc 0.2168/0.2168	prompt [X]属于[Y]。
+pid P31	#fact 429	#notrans 541	#notexist 30	#multiword 385,False	#singleword 44,False	oracle 0.0443	time 3.3
+pid P495	acc 0.0142/0.0142	len_acc 0.3618/0.3618	prompt [X]的原产地是[Y]。
+pid P495	#fact 351	#notrans 605	#notexist 44	#multiword 351,False	#singleword 0,False	oracle 0.0142	time 2.8
+pid P159	acc 0.1386/0.1386	len_acc 0.4076/0.4076	prompt [X]的总部位于[Y]。
+pid P159	#fact 498	#notrans 460	#notexist 42	#multiword 498,False	#singleword 0,False	oracle 0.1386	time 4.4
+
+pid P36	acc 0.0637/0.0637	len_acc 0.3165/0.3165	prompt [X]的行政中心是[Y]。
+pid P36	#fact 910	#notrans 89	#notexist 1	#multiword 910,False	#singleword 0,False	oracle 0.0637	time 8.3
+pid P740	acc 0.0000/0.0000	len_acc 0.2788/0.2788	prompt [X]成立于[Y]。
+pid P740	#fact 312	#notrans 634	#notexist 54	#multiword 312,False	#singleword 0,False	oracle 0.0000	time 3.1
+pid P361	acc 0.0072/0.0072	len_acc 0.1248/0.1248	prompt [X]构成[Y]。
+pid P361	#fact 553	#notrans 411	#notexist 36	#multiword 546,False	#singleword 7,False	oracle 0.0072	time 5.6
+acc per fact 646/21669=0.0298	acc per relation 0.02920829326508752	avg iter 1.0	num_max_mask 4235

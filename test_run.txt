@@ -1,5 +1,20 @@
-python scripts/probe.py --model mbert_base --lang ru --pred_dir prediction_folder
+python scripts/probe.py --model mbert_base --lang en --pred_dir prediction_folder
 python scripts/ana.py --model mbert_base --lang nl --inp prediction_folder 
 python scripts/probe.py --probe mlamaf --model mbert_base --lang es --pred_dir ./evl_mbert/es/ "${@:7}" &>> ./evl_mbert/es.out
 
 nohup bash run_language.sh > output_mlammaf.log 2>&1 &
+
+
+# python scripts/probe_zztr.py --probe mlamaf --model xlmr_zztr --lang en --pred_dir prediction_folder
+
+python scripts/probe_focus.py --model mbert_base --lang es --pred_dir prediction_folder
+nohup bash run_language_focus.sh > output_mlammaf_focus.log 2>&1 &
+
+python scripts/probe_fvt.py --model mbert_base --lang zh --pred_dir prediction_folder
+nohup bash run_language_fvt.sh > output_mlammaf_fvt.log 2>&1 &
+
+
+bash run_lm_focus.sh wiki_tr_1000.txt wiki_tr_output 5 dbmdz/bert-base-turkish-cased
+nohup ./run_lms_focus.sh > run_lms_focus.log 2>&1 &
+
+nohup bash run_language_focus_pretraining.sh > output_mlammaf_focus_pretraining.log 2>&1 &

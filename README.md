@@ -2,9 +2,10 @@
 
 Changing tokenizer directly is not easy. Traditional, the model is trained on specific tokenizer. Thus, to change tokenizer, we may need to train the model from beginning. It may take a large amount of time and also even though some model like m-Bert, XLM is not trained on sentencepiece tokenizer, it has been realized in XLM-R, and has been test in the article (Jiang et al., 2020). Fortunately, recent papers (Gee et al., 2022) (Minixhofer et al., 2024) has shown way to change tokenizer in zero shot condition. Thus, we want to employ those method and then used on multi lingual knowledge of fact Q&A.
 
-All the result accuracy can be found in X-FACTR-Extent/*.log
+All the result accuracy can be found in `X-FACTR-Extent/*.log`
 
-The detailed prediction results are in the specific folder named evl_mbert_*
+The detailed prediction results are in the specific folder named `evl_mbert_*`
+
 ---
 Requirments setup:
 ```
